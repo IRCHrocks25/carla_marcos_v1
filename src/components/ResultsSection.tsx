@@ -93,7 +93,7 @@ export function ResultsSection() {
               
               <button
                 onClick={() => console.log('Clicked: Get the Free Toolkit Now')}
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-lg text-base sm:text-lg font-bold mt-3 md:mt-4 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-lg text-base sm:text-lg font-bold mt-3 md:mt-4 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer w-full sm:w-auto"
               >
                 Get the Free Toolkit Now
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />

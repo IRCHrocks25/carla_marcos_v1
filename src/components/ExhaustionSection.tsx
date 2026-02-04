@@ -1,5 +1,11 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import cosmicBrainImage from 'figma:asset/7cd90b161f1abd87fe28a3e87fc18653975e6135.png';
+import logo1 from '../assets/icons/Logo Container.png';
+import logo2 from '../assets/icons/Logo Container (1).png';
+import logo3 from '../assets/icons/Logo Container (2).png';
+import logo4 from '../assets/icons/Logo Container (3).png';
+import logo5 from '../assets/icons/Logo Container (4).png';
+import logo6 from '../assets/icons/Logo Container (5).png';
 
 export function ExhaustionSection() {
   return (
@@ -7,51 +13,16 @@ export function ExhaustionSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         {/* As Seen On Section */}
         <div className="text-center mb-12 sm:mb-14 md:mb-16">
-          <div className="text-gray-400 tracking-[0.3em] text-xs mb-6 sm:mb-8 font-semibold">
+          <div className="text-gray-700 tracking-[0.3em] text-xs mb-6 sm:mb-8 font-semibold">
             AS SEEN ON
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 opacity-60 grayscale">
-            {/* Telemundo */}
-            <div className="text-gray-700 font-bold text-lg sm:text-xl md:text-2xl tracking-tight">
-              <span className="text-xl sm:text-2xl md:text-3xl">T</span>elemundo
-            </div>
-            {/* CW */}
-            <div className="text-gray-700 font-bold text-2xl sm:text-3xl md:text-4xl tracking-tighter">
-              CW
-            </div>
-            {/* FOX */}
-            <div className="text-gray-700 font-bold text-2xl sm:text-3xl md:text-4xl tracking-wide">
-              FOX
-            </div>
-            {/* ABC */}
-            <div className="flex items-center justify-center">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-base sm:text-lg">abc</span>
-              </div>
-            </div>
-            {/* NBC */}
-            <div className="flex flex-col items-center">
-              <div className="flex gap-0.5 mb-1">
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-purple-600"></div>
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-orange-500"></div>
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-red-500"></div>
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-yellow-400"></div>
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-green-500"></div>
-                <div className="w-1.5 h-4 sm:w-2 sm:h-5 md:h-6 bg-blue-500"></div>
-              </div>
-              <div className="text-gray-700 font-bold text-base sm:text-lg md:text-xl tracking-wider">NBC</div>
-            </div>
-            {/* CBS */}
-            <div className="flex items-center justify-center">
-              <div className="relative">
-                <div className="w-8 h-8 sm:w-10 sm:h-10 border-3 sm:border-4 border-gray-700 rounded-full flex items-center justify-center">
-                  <svg viewBox="0 0 24 24" className="w-5 h-5 sm:w-6 sm:h-6 fill-gray-700">
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-              </div>
-              <span className="text-gray-700 font-bold text-lg sm:text-xl md:text-2xl ml-2">CBS</span>
-            </div>
+          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 opacity-90 grayscale">
+            <img src={logo1} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
+            <img src={logo2} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
+            <img src={logo3} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
+            <img src={logo4} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
+            <img src={logo5} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
+            <img src={logo6} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
           </div>
         </div>
 
@@ -79,9 +50,10 @@ export function ExhaustionSection() {
 
         {/* Bottom purple text */}
         <div className="text-center mt-12 sm:mt-14 md:mt-16">
-          <p className="text-xl sm:text-2xl md:text-3xl text-purple-600 leading-relaxed font-semibold max-w-4xl mx-auto px-4">
-            Your mind already holds the blueprint for your best life. Let's bring it into focus and allow it to transform into the reality you live and breathe.
-          </p>
+          <div className="text-xl sm:text-2xl md:text-3xl text-purple-600 leading-relaxed font-semibold max-w-6xl mx-auto px-4">
+            <span className="block">Your mind already holds the blueprint for your best life. Let's bring it into focus and </span>
+            <span className="block"> allow it to transform into the reality you live and breathe.</span>
+          </div>
         </div>
       </div>
     </section>

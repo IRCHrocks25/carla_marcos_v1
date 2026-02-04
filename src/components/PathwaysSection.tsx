@@ -85,7 +85,7 @@ export function PathwaysSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           {/* Left Column - Program Info */}
           <div className="text-white space-y-4 sm:space-y-5 md:space-y-6">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-3 sm:mb-4 leading-tight font-bold">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-3 sm:mb-4 leading-tight font-bold md:whitespace-nowrap">
               The Diamond Transformation Program®
             </h2>
             
@@ -121,7 +121,7 @@ export function PathwaysSection() {
           </div>
 
           {/* Right Column - Accordion Stages */}
-          <div className="space-y-3 sm:space-y-4">
+          <div className="space-y-3 sm:space-y-4 mt-8 sm:mt-12 md:mt-16 lg:mt-24">
             {stages.map((stage, index) => (
               <div
                 key={index}
@@ -163,7 +163,7 @@ export function PathwaysSection() {
         {/* Bottom CTA Section */}
         <div className="mt-12 sm:mt-16 md:mt-20 text-center">
           <h3 
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-5 md:mb-6 font-bold px-4"
+            className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4 sm:mb-5 md:mb-6 font-bold px-4 leading-tight"
             style={{
               background: 'linear-gradient(to right, #A341FD, #0057EF)',
               WebkitBackgroundClip: 'text',
@@ -184,10 +184,11 @@ export function PathwaysSection() {
           
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-600 hover:from-purple-600 hover:via-pink-600 hover:to-purple-700 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl font-bold shadow-2xl w-full sm:w-auto mx-4"
+            className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-600 hover:from-purple-600 hover:via-pink-600 hover:to-purple-700 text-white px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 text-base sm:text-lg md:text-xl font-bold shadow-2xl w-full sm:w-auto mx-4 whitespace-normal"
           >
-            Book your Initial Consultation today
-            <ArrowUpRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
+            <span className="block sm:inline">Book your Initial Consultation</span>
+            <span className="block sm:inline sm:ml-1">today</span>
+            <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </Button>
         </div>
       </div>

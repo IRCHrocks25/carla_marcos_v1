@@ -1,4 +1,3 @@
-import heroImage from 'figma:asset/50f18e4ad7c691d4a131d9dcb2c116edabc1c80a.png';
 import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
 
@@ -15,7 +14,8 @@ export function TestimonialsSection() {
     {
       percentage: "75%",
       description: "Hypnotherapy reduces medical anxiety in children by up to",
-      small: true
+      small: true,
+      reverseOrder: true
     },
     {
       percentage: "30-50%",
@@ -36,12 +36,18 @@ export function TestimonialsSection() {
     {
       percentage: "60%",
       description: "PTSD therapy combined with hypnotherapy leads to greater symptom reduction.",
-      small: true
+      descriptionBefore: "PTSD therapy combined with hypnotherapy leads to greater",
+      descriptionAfter: "symptom reduction.",
+      small: true,
+      splitFormat: true
     },
     {
       percentage: "75%",
       description: "Smoking cessation success rate increase to with hypnotherapy, versus 45% with other methods.",
-      small: true
+      descriptionBefore: "Smoking cessation success rate increase to",
+      descriptionAfter: "with hypnotherapy, versus 45% with other methods.",
+      small: true,
+      splitFormat: true
     },
     {
       percentage: "10-15%",
@@ -52,36 +58,47 @@ export function TestimonialsSection() {
 
   return (
     <section className="relative overflow-hidden">
-      {/* Hero Image Section */}
-      <div className="relative w-full">
-        <img 
-          src={heroImage} 
-          alt="Scientific Evidence of Hypnotherapy" 
-          className="w-full h-auto object-cover min-h-[300px] sm:min-h-[400px] md:min-h-0"
-        />
-      </div>
-      
       {/* Stats Section - Built with Components */}
       <div className="relative w-full bg-gradient-to-b from-black via-indigo-950 to-purple-950 py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-[1440px] mx-auto">
-          {/* Top text */}
-          <p className="text-white text-center mb-8 sm:mb-10 md:mb-12 text-base sm:text-lg">
-            clients already know:
-          </p>
-          
           {/* Stats Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-5 md:gap-6 mb-8 sm:mb-10 md:mb-12">
             {stats.map((stat, idx) => (
               <div 
                 key={idx}
-                className="bg-transparent border-2 border-purple-500/40 rounded-xl md:rounded-2xl p-5 sm:p-6 flex flex-col justify-center items-start min-h-[160px] sm:min-h-[180px]"
+                className="bg-transparent border-2 border-purple-500/40 rounded-xl md:rounded-2xl p-5 sm:p-6 flex flex-col justify-start items-start h-[180px] sm:h-[200px]"
               >
-                <div className={`${stat.small ? 'text-3xl sm:text-4xl' : 'text-4xl sm:text-5xl'} text-white mb-2 sm:mb-3 font-bold`}>
-                  {stat.percentage}
-                </div>
-                <p className="text-white/90 text-xs sm:text-sm leading-snug">
-                  {stat.description}
-                </p>
+                {stat.splitFormat ? (
+                  <>
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3">
+                      {stat.descriptionBefore}
+                    </p>
+                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-bold h-12 sm:h-14 flex items-center">
+                      {stat.percentage}
+                    </div>
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug">
+                      {stat.descriptionAfter}
+                    </p>
+                  </>
+                ) : stat.reverseOrder ? (
+                  <>
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3">
+                      {stat.description}
+                    </p>
+                    <div className="text-4xl sm:text-5xl text-white font-bold h-12 sm:h-14 flex items-center">
+                      {stat.percentage}
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-bold h-12 sm:h-14 flex items-center">
+                      {stat.percentage}
+                    </div>
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug">
+                      {stat.description}
+                    </p>
+                  </>
+                )}
               </div>
             ))}
           </div>

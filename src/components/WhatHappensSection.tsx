@@ -29,7 +29,7 @@ export function WhatHappensSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 sm:py-14 md:py-16 lg:py-20 max-w-6xl mx-auto">
+      <div className="relative z-10 px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-14 md:py-16 lg:py-20 max-w-6xl mx-auto">
         <div className="space-y-4 sm:space-y-5 md:space-y-6 max-w-3xl">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-2 font-bold leading-tight">
             What Happens When You Find Your Unique Balance

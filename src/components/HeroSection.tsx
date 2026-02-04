@@ -19,9 +19,9 @@ export function HeroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-20 items-center">
           {/* Left content */}
           <div className="text-white space-y-3 sm:space-y-4 md:space-y-5 order-2 md:order-1">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight font-bold">
-              STOP PUSHING.<br />
-              START FLOWING.
+            <h1 className="font-bold text-left m-0 p-0" style={{ fontFamily: "'Spartan', sans-serif", lineHeight: '1.1' }}>
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wide text-left m-0 p-0">STOP PUSHING.</div>
+              <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wide text-left m-0 p-0">START FLOWING.</div>
             </h1>
             
             <h2 className="text-lg sm:text-xl md:text-2xl text-white font-semibold">

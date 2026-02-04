@@ -40,12 +40,12 @@ export function RevolutionSection() {
         </div>
         
         {/* Three cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 items-stretch gap-4 sm:gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-16">
           {cards.map((card, idx) => (
             <button
               key={idx}
               onClick={() => console.log(`Clicked: ${card.title}`)}
-              className="bg-purple-800/30 backdrop-blur-sm border-2 border-purple-400/40 rounded-2xl p-5 sm:p-6 md:p-8 text-center space-y-3 sm:space-y-4 md:space-y-5 hover:bg-purple-700/40 hover:border-purple-300/60 transition-all duration-300 cursor-pointer group"
+              className="bg-purple-800/30 backdrop-blur-sm border-2 border-purple-400/40 rounded-2xl p-5 sm:p-6 md:p-8 text-center flex flex-col items-center gap-3 sm:gap-4 md:gap-5 hover:bg-purple-700/40 hover:border-purple-300/60 transition-all duration-300 cursor-pointer group h-full"
             >
               {/* Icon */}
               <div className="flex justify-center">
@@ -66,7 +66,7 @@ export function RevolutionSection() {
               </h3>
               
               {/* Description */}
-              <p className="text-sm sm:text-base text-purple-100 leading-relaxed">
+              <p className="text-sm sm:text-base text-purple-100 leading-relaxed flex-1 flex items-start text-center">
                 {card.description}
               </p>
             </button>
