@@ -302,12 +302,12 @@ export function FinalCTASection() {
               <div>
                 <h3 className="text-blue-600 tracking-wider text-sm sm:text-base mb-4 sm:mb-5 font-bold uppercase">Social</h3>
                 <div className="pb-16 sm:pb-20 md:pb-24 lg:pb-28">
-                  <a 
-                    href="mailto:carlamarcoshypnotherapy@gmail.com" 
+                <a 
+                  href="mailto:carlamarcoshypnotherapy@gmail.com" 
                     className="text-gray-700 text-sm sm:text-base font-medium hover:text-purple-600 transition-colors duration-200 block break-all"
-                  >
-                    carlamarcoshypnotherapy@gmail.com
-                  </a>
+                >
+                  carlamarcoshypnotherapy@gmail.com
+                </a>
                 </div>
                 <div className="flex gap-6 sm:gap-7 md:gap-8 items-center pt-2 sm:pt-3">
                   <a 

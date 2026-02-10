@@ -34,13 +34,14 @@ export function PathwaysSection() {
   ];
 
   return (
-    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden">
-      {/* Background image */}
+    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-visible min-h-[100vh] sm:min-h-[900px]">
+      {/* Background image - keep full size on all screens, especially mobile */}
       <div className="absolute inset-0">
         <img 
           src={cosmicBg} 
           alt="" 
           className="w-full h-full object-cover"
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       </div>
       
@@ -84,58 +85,58 @@ export function PathwaysSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           {/* Left Column - Program Info */}
-          <div className="text-white space-y-4 sm:space-y-5 md:space-y-6">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-3 sm:mb-4 leading-tight font-bold md:whitespace-nowrap">
+          <div className="text-white space-y-5 sm:space-y-6 md:space-y-7 pb-8 sm:pb-0">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-5 leading-tight font-bold md:whitespace-nowrap text-white drop-shadow-lg">
               The Diamond Transformation Program®
             </h2>
             
-            <h3 className="text-2xl sm:text-3xl md:text-4xl text-purple-300 mb-4 sm:mb-5 md:mb-6 font-bold">
+            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-200 sm:text-purple-300 mb-5 sm:mb-6 md:mb-7 font-bold drop-shadow-md">
               How to Rewire a Lifetime in Weeks, Not Years
             </h3>
             
-            <div className="space-y-3 sm:space-y-4 text-purple-100">
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+            <div className="space-y-4 sm:space-y-5">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
                 Forget everything you've been told about change taking time.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
                 Forget the idea that growth has to be painful.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
                 And definitely forget the belief that you need to dig through every childhood wound to move forward.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
                 The Marcos Method™ is different. It's based on a simple truth: your brain is neuroplastic, which means the patterns running your life can be rewritten, much like updating software.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
                 After our Initial Consultation, I'll prepare your bespoke plan to help you achieve your specific goals. This will balance planning with expert ad-hoc assessment as our sessions progress.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm pb-4 sm:pb-0">
                 Often, as we work together, we discover that what first appeared to be "the problem" is actually a coping strategy. That's why I'll naturally overlay and adapt the main stages of your plan to reflect the new insights and breakthroughs you experience along the way.
               </p>
             </div>
           </div>
 
           {/* Right Column - Accordion Stages */}
-          <div className="space-y-3 sm:space-y-4 mt-8 sm:mt-12 md:mt-16 lg:mt-24">
+          <div className="space-y-4 sm:space-y-5 mt-8 sm:mt-12 md:mt-16 lg:mt-24">
             {stages.map((stage, index) => (
               <div
                 key={index}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg md:rounded-xl overflow-hidden"
+                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg md:rounded-xl overflow-hidden shadow-lg"
               >
                 <button
                   onClick={() => setExpandedStage(expandedStage === index ? -1 : index)}
-                  className="w-full px-4 sm:px-5 md:px-6 py-4 sm:py-5 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
+                  className="w-full px-4 sm:px-5 md:px-6 py-4 sm:py-5 md:py-6 flex items-center justify-between text-left hover:bg-white/10 transition-colors"
                 >
                   <div className="flex-1 pr-3">
-                    <h4 className="text-lg sm:text-xl md:text-2xl text-white mb-1 font-bold">
+                    <h4 className="text-lg sm:text-xl md:text-2xl text-white mb-2 font-bold drop-shadow-md">
                       {stage.title}
                     </h4>
-                    <p className="text-purple-200 text-sm sm:text-base">
+                    <p className="text-purple-200 sm:text-purple-100 text-sm sm:text-base font-medium drop-shadow-sm">
                       {stage.subtitle}
                     </p>
                   </div>
@@ -147,9 +148,9 @@ export function PathwaysSection() {
                 </button>
                 
                 {expandedStage === index && (
-                  <div className="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 md:pb-6 pt-2 space-y-3 sm:space-y-4">
+                  <div className="px-4 sm:px-5 md:px-6 pb-5 sm:pb-6 md:pb-7 pt-3 space-y-4 sm:space-y-5">
                     {stage.content.map((paragraph, idx) => (
-                      <p key={idx} className="text-purple-100 leading-relaxed text-sm sm:text-base md:text-lg">
+                      <p key={idx} className="text-white leading-relaxed text-sm sm:text-base md:text-lg font-medium drop-shadow-sm">
                         {paragraph}
                       </p>
                     ))}

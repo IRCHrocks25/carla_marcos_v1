@@ -2,20 +2,21 @@ import containerBg from '../assets/icons_footer/Container.jpg';
 
 export function HypnotherapySection() {
   return (
-    <section className="relative py-0 overflow-hidden min-h-screen flex items-center" style={{ marginTop: '-30px' }}>
-      {/* Background image - full frame */}
-      <div className="absolute inset-0">
-        <img 
-          src={containerBg} 
-          alt="" 
-          className="w-full h-full object-contain"
-        />
-      </div>
-      
+    <section 
+      className="relative py-0 overflow-hidden min-h-[100vh] sm:min-h-screen flex items-start md:items-center" 
+      style={{ 
+        marginTop: '-30px',
+        backgroundImage: `url(${containerBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: '#0f172a'
+      }}
+    >
       {/* Subtle overlay only on bottom dark area for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none z-[1]"></div>
       
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10 w-full py-12 sm:py-16 md:py-20 lg:py-24" style={{ marginTop: '20%' }}>
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-[2] w-full py-12 sm:py-16 md:py-20 lg:py-24" style={{ marginTop: '0', paddingTop: '20vh' }}>
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-6 font-bold">
             Scientific Evidence of Hypnotherapy

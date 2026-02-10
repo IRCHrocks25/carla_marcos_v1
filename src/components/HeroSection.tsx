@@ -6,7 +6,7 @@ import heroBackground from 'figma:asset/649bc4c02c9919a704b85add057ee4fbcae871f1
 export function HeroSection() {
   return (
     <section 
-      className="relative overflow-hidden py-8 sm:py-12 md:py-16 lg:py-20 xl:py-28"
+      className="relative overflow-hidden pt-0 pb-8 sm:pt-12 sm:pb-12 md:py-16 lg:py-20 xl:py-28 min-h-0 sm:min-h-[90vh]"
       style={{
         backgroundImage: `url(${heroBackground})`,
         backgroundSize: 'cover',
@@ -16,26 +16,26 @@ export function HeroSection() {
       }}
     >
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-20 items-start md:items-center">
           {/* Left content */}
-          <div className="text-white space-y-3 sm:space-y-4 md:space-y-5 order-2 md:order-1">
+          <div className="text-white space-y-3 sm:space-y-4 md:space-y-5 order-2 md:order-1 -mt-12 sm:mt-0">
             <h1 className="font-bold text-left m-0 p-0" style={{ fontFamily: "'Spartan', sans-serif", lineHeight: '1.1' }}>
               <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wide text-left m-0 p-0">STOP PUSHING.</div>
               <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-wide text-left m-0 p-0">START FLOWING.</div>
             </h1>
             
-            <h2 className="text-lg sm:text-xl md:text-2xl text-white font-semibold">
-              Transform the Mind That Creates Your Life,<br className="hidden sm:block" />
-              And Find Your Unique Balance
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white font-semibold leading-tight">
+              <span className="block sm:inline">Transform the Mind That Creates Your Life,</span>
+              <span className="block sm:inline sm:ml-1">And Find Your Unique Balance</span>
             </h2>
             
-            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium">
+            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium break-words">
               You're smart. You're capable. You've achieved what others dream of, yet 
               something still feels off. The books, courses, and willpower have only 
               taken you so far... because the real change happens deeper.
             </p>
             
-            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium">
+            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium break-words">
               I combine the drive and precision of a pharma lawyer, the holistic care of 
               a nurse, and the deep transformation tools of a multi-award-winning 
               clinical hypnotherapist to help you rewire the subconscious patterns 

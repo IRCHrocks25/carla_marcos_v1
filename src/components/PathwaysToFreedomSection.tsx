@@ -39,7 +39,7 @@ export function PathwaysToFreedomSection() {
     },
     {
       title: "SAPPHIRE HYPNOTIC SOUNDSCAPES®",
-          	subtitle: "The Self-Liberation Collection",
+      subtitle: "The Self-Liberation Collection",
       subtitleLine1: "Most Transformational",
       description: "My book on how mastering the subconscious language and hypnosis opens the gateway to deep, true, and lasting transformation, accompanied by a practical guide and a sleep hypnosis recording album—composed in Great Britain's creative heart and recorded in Ibiza, the high-frequency island of joy and\u00A0flow. Perfect if you want to begin your journey\u00A0today.",
       image: pathwayImage3,

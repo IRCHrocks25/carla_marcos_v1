@@ -5,12 +5,13 @@ import brainBg from 'figma:asset/10c2ee1d5a6f1fff9cd785a2cc6f678b0f4bd695.png';
 export function WhyItWorksSection() {
   return (
     <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden bg-gradient-to-br from-indigo-950 via-blue-900 to-purple-900">
-      {/* Brain background */}
+      {/* Brain background - keep full size on all screens including mobile */}
       <div className="absolute inset-0">
         <img 
           src={brainBg} 
           alt="" 
           className="w-full h-full object-cover"
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       </div>
       

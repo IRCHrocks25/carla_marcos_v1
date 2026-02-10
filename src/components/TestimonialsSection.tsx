@@ -112,10 +112,11 @@ export function TestimonialsSection() {
           <div className="flex justify-center px-4">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-8 sm:px-10 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal text-center"
             >
-              Explore the Science Behind the Shift
-              <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="block sm:inline">Explore the Science Behind</span>
+              <span className="block sm:inline sm:ml-1">the Shift</span>
+              <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
             </Button>
           </div>
         </div>

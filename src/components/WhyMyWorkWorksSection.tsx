@@ -25,12 +25,13 @@ export function WhyMyWorkWorksSection() {
 
   return (
     <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-visible" style={{ fontFamily: "'Outfit', sans-serif" }}>
-      {/* Background image - extended well beyond bottom to eliminate white space */}
+      {/* Background image - keep full size on all screens including mobile */}
       <div className="absolute inset-0" style={{ bottom: '-800px', height: 'calc(100% + 800px)' }}>
         <img 
           src={backgroundImage} 
           alt="" 
           className="w-full h-full object-cover"
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       </div>
       
@@ -50,7 +51,7 @@ export function WhyMyWorkWorksSection() {
           <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-4 font-semibold">
             I don't just teach subconscious transformation. I lived it. While sleep-deprived and overwhelmed, I rewired my own patterns, then built a method so effective 87% of my clients experience noticeable shifts within four sessions.
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed whitespace-nowrap font-semibold">
+          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed sm:whitespace-nowrap font-semibold">
             To date, I've helped 600+ men and women in 15+ countries stop fighting themselves and start flowing.
           </p>
         </div>
