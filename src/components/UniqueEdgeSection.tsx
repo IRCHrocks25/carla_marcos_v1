@@ -60,11 +60,11 @@ export function UniqueEdgeSection() {
   ];
 
   return (
-    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50/30 to-pink-50/30">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
+    <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-visible bg-gradient-to-br from-blue-50 via-purple-50/30 to-pink-50/30">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10 overflow-visible">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Loved by Clients Around the World
           </h2>
           <p className="text-base sm:text-lg text-gray-700 font-medium">
@@ -94,7 +94,7 @@ export function UniqueEdgeSection() {
               {testimonials.map((testimonial, idx) => (
                 <CarouselItem key={idx} className="pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
                   <div className="bg-white rounded-xl md:rounded-2xl p-6 sm:p-7 md:p-8 shadow-sm border border-gray-100 relative h-full">
-                    <h3 className="text-xl sm:text-2xl text-gray-900 mb-3 sm:mb-4 font-bold">
+                    <h3 className="text-xl sm:text-2xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
                       {testimonial.title}
                     </h3>
                     
@@ -137,12 +137,12 @@ export function UniqueEdgeSection() {
         </div>
         
         {/* CTA Section */}
-        <div className="text-center max-w-4xl mx-auto px-4">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent mb-5 sm:mb-6 font-bold">
+        <div className="text-center max-w-4xl mx-auto px-4 pt-6 sm:pt-8 md:pt-10 pb-4 sm:pb-6 md:pb-8">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent mb-5 sm:mb-6 font-semibold py-2 sm:py-3" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em', lineHeight: '1.2', paddingTop: '0.75rem', paddingBottom: '0.75rem', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
             Your Breakthrough Starts Here
           </h3>
           
-          <p className="text-gray-700 mb-6 sm:mb-7 md:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">
+          <p className="text-gray-700 mb-6 sm:mb-7 md:mb-8 text-sm sm:text-base md:text-lg leading-relaxed py-2 sm:py-3" style={{ wordBreak: 'normal', overflowWrap: 'normal', lineHeight: '1.6', paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
             These women and men were once where you are now stressed, stuck, and searching for answers. In just weeks, they rewired their minds, reclaimed their energy, and reshaped their lives.
           </p>
           

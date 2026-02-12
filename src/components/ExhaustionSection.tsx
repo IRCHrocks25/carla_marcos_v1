@@ -38,11 +38,11 @@ export function ExhaustionSection() {
           
           {/* Right content */}
           <div className="space-y-6 sm:space-y-7 md:space-y-8 order-1 md:order-2">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl text-blue-900 leading-tight font-bold">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl text-blue-900 leading-tight font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
               When your conscious and subconscious finally align, success stops feeling like a battle and starts feeling inevitable
             </h2>
             
-            <p className="text-gray-700 text-base sm:text-lg leading-relaxed font-medium">
+            <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed font-normal tracking-wide" style={{ lineHeight: '1.8', letterSpacing: '0.01em' }}>
               You might feel stuck right now, like you're caught in patterns you just can't escape. And no matter what you do, you circle back to that same old, familiar, unwanted mode. But here's the good news: your brain can be rewired.
             </p>
           </div>
@@ -50,9 +50,9 @@ export function ExhaustionSection() {
 
         {/* Bottom purple text */}
         <div className="text-center mt-12 sm:mt-14 md:mt-16">
-          <div className="text-xl sm:text-2xl md:text-3xl text-purple-600 leading-relaxed font-semibold max-w-6xl mx-auto px-4">
-            <span className="block">Your mind already holds the blueprint for your best life. Let's bring it into focus and </span>
-            <span className="block"> allow it to transform into the reality you live and breathe.</span>
+          <div className="text-xl sm:text-2xl md:text-3xl text-purple-600 leading-relaxed font-semibold w-full max-w-[95%] sm:max-w-[90%] md:max-w-[85%] lg:max-w-[80%] mx-auto px-4" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+            <div className="block">Your mind already holds the blueprint for your best life. Let's bring it into focus</div>
+            <div className="block">and allow it to transform into the reality you live&nbsp;and&nbsp;breathe.</div>
           </div>
         </div>
       </div>

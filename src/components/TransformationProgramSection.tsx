@@ -18,7 +18,7 @@ export function TransformationProgramSection() {
               backgroundPosition: 'center'
             }}
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-5 md:mb-6 font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
               The Ripple Effect
             </h2>
             
@@ -47,13 +47,13 @@ export function TransformationProgramSection() {
         {/* Bottom Section - The Exhaustion No One Talks About */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           {/* Left Column */}
-          <div className="space-y-6 sm:space-y-7 md:space-y-8">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight font-bold">
+          <div className="space-y-6 sm:space-y-7 md:space-y-8 overflow-visible">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
               The Exhaustion No One Talks About
             </h2>
             
-            <div className="space-y-4 sm:space-y-5 md:space-y-6">
-              <h3 className="text-xl sm:text-2xl md:text-3xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent font-bold">
+            <div className="space-y-4 sm:space-y-5 md:space-y-6 overflow-visible">
+              <h3 className="text-xl sm:text-2xl md:text-3xl bg-clip-text text-transparent font-semibold whitespace-nowrap overflow-visible -ml-2 sm:-ml-3 md:-ml-4" style={{ fontFamily: "'Spartan', sans-serif", backgroundImage: 'linear-gradient(to right, #A341FD, #0057EF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                 When Your Success Becomes Your Prison
               </h3>
               
@@ -65,7 +65,7 @@ export function TransformationProgramSection() {
                 Yet you lie awake at 3 AM wondering why you still feel like you're performing your life instead of living it.
               </p>
               
-              <h3 className="text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent pt-2 sm:pt-3 md:pt-4 font-bold">
+              <h3 className="text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent pt-2 sm:pt-3 md:pt-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
                 The invisible struggle of high-achievers:
               </h3>
               

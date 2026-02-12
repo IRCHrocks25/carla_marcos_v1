@@ -24,46 +24,46 @@ export function WhyItWorksSection() {
       
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-3 sm:mb-4 font-bold leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-3 sm:mb-4 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             The Woman Behind the Breakthrough
           </h2>
-          <h3 className="text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold">
+          <h3 className="text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
             When Life Forced Me to Practice What I Preached
           </h3>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 text-white max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12">
           {/* Left column */}
-          <div className="space-y-3 sm:space-y-4 text-white/90 leading-relaxed font-medium text-base sm:text-lg">
-            <p className="text-base sm:text-lg">
+          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8', letterSpacing: '0.01em' }}>
+            <p className="text-base sm:text-lg md:text-xl">
               I thought I knew everything about the mind...
             </p>
             
-            <p className="text-base sm:text-lg">
+            <p className="text-base sm:text-lg md:text-xl">
               Pharma lawyer. Qualified nurse. Award-winning clinical hypnotherapist. I'd been obsessed in psychology for as long as I could remember, since I was a little girl. I spoke several languages. I had gathered years of diverse professional and life experience, and carried all the credentials, the knowledge, and the toolkit anyone could wish for. By all appearances, I was the woman who had it all figured out.
             </p>
             
-            <p className="text-base sm:text-lg">
+            <p className="text-base sm:text-lg md:text-xl">
               Then life happened. A new country. A new language. A toddler. A newborn. Buying, selling, and renovating homes. Rebuilding my career and social life in new environments, one town after another.
             </p>
           </div>
           
           {/* Right column */}
-          <div className="space-y-3 sm:space-y-4 text-white/90 leading-relaxed font-medium text-base sm:text-lg">
-            <p className="text-base sm:text-lg">
+          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8', letterSpacing: '0.01em' }}>
+            <p className="text-base sm:text-lg md:text-xl">
               Building a business. And trying to juggle it all by myself while my husband traveled for work...
             </p>
             
-            <p className="text-base sm:text-lg">
+            <p className="text-base sm:text-lg md:text-xl">
               I was drowning in my own expertise.
             </p>
             
-            <p className="text-base sm:text-lg">
+            <p className="text-base sm:text-lg md:text-xl">
               I knew there had to be another way. That's when I discovered the most humbling truth of my career: Knowing how the mind works intellectually is not the same as having aligned it emotionally.
             </p>
             
-            <p className="text-base sm:text-lg">
-              The moment I stopped fighting my subconscious and started partnering with it, everything shifted, <span className="text-pink-300 italic text-base sm:text-lg">not just my stress levels</span>, but my entire reality.
+            <p className="text-base sm:text-lg md:text-xl">
+              The moment I stopped fighting my subconscious and started partnering with it, everything shifted, <span className="text-pink-300 italic text-base sm:text-lg md:text-xl">not just my stress levels</span>, but my entire reality.
             </p>
           </div>
         </div>

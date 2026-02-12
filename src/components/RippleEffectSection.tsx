@@ -59,7 +59,7 @@ export function RippleEffectSection() {
 
           {/* Right - Content */}
           <div className="text-white space-y-5 sm:space-y-6 md:space-y-7 lg:space-y-8 order-1 md:order-2 pb-12 sm:pb-8 md:pb-0">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4 sm:mb-5 md:mb-6 lg:mb-7 font-bold leading-tight text-white drop-shadow-lg">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4 sm:mb-5 md:mb-6 lg:mb-7 font-semibold leading-tight text-white drop-shadow-lg" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
               My Unique Edge
             </h2>
 
@@ -80,7 +80,7 @@ export function RippleEffectSection() {
             </p>
 
             <div className="mt-6 sm:mt-8 md:mt-10 lg:mt-12 pt-4 sm:pt-6">
-              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 md:mb-5 font-bold text-white drop-shadow-lg">
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl mb-3 sm:mb-4 md:mb-5 font-semibold text-white drop-shadow-lg" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
                 My mantra:
               </h3>
               <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl italic leading-relaxed font-bold drop-shadow-lg" style={{ 

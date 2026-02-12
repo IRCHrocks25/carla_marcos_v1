@@ -74,7 +74,7 @@ export function PathwaysToFreedomSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Your Pathway to Freedom
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600">
@@ -125,7 +125,7 @@ export function PathwaysToFreedomSection() {
           <div className="lg:col-span-1 flex flex-col gap-6 sm:gap-7 md:gap-8">
             {pathways.map((pathway, idx) => (
               <div key={idx} className={`flex-1 rounded-xl md:rounded-2xl shadow-xl hover:shadow-2xl transition-shadow p-6 sm:p-7 md:p-8 space-y-3 sm:space-y-4 border-2 ${pathway.borderColor} bg-white`}>
-                <h3 className={`text-lg sm:text-xl md:text-2xl mb-2 font-bold leading-tight ${pathway.titleColor}`}>
+                <h3 className={`text-lg sm:text-xl md:text-2xl mb-2 font-semibold leading-tight ${pathway.titleColor}`} style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
                   {pathway.titleLine2 ? (
                     <>
                       <span className="block">{pathway.title}</span>
@@ -155,7 +155,7 @@ export function PathwaysToFreedomSection() {
 
         {/* Bottom CTA */}
         <div className="text-center px-4">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4 font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl mb-3 sm:mb-4 font-semibold bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 bg-clip-text text-transparent" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Your Future Self Is Waiting
           </h3>
           

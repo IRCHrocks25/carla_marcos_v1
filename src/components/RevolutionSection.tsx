@@ -31,10 +31,10 @@ export function RevolutionSection() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         {/* Heading */}
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-2 md:mb-3 lg:mb-4 font-bold leading-tight px-2">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-2 md:mb-3 lg:mb-4 font-semibold leading-tight px-2" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Leading a Revolution from the inside out
           </h2>
-          <p className="text-lg sm:text-xl md:text-2xl text-purple-200 font-bold">
+          <p className="text-lg sm:text-xl md:text-2xl text-purple-200 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
             Mission & Vision
           </p>
         </div>
@@ -61,7 +61,7 @@ export function RevolutionSection() {
               </div>
               
               {/* Title */}
-              <h3 className="text-lg sm:text-xl md:text-2xl text-white font-bold">
+              <h3 className="text-lg sm:text-xl md:text-2xl text-white font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
                 {card.title}
               </h3>
               

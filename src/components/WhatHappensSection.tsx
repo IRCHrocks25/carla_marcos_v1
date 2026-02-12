@@ -38,13 +38,12 @@ export function WhatHappensSection() {
       {/* Content */}
       <div className="relative z-10 -ml-2 pr-4 sm:-ml-1 sm:pr-6 md:pl-0 md:pr-8 lg:pl-2 lg:pr-12 py-12 sm:py-16 md:py-20 lg:py-24 max-w-6xl mx-auto">
         <div className="space-y-5 sm:space-y-6 md:space-y-7 w-full">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-4 sm:mb-5 font-bold leading-tight drop-shadow-2xl" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 16px rgba(0,0,0,0.6)' }}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-4 sm:mb-5 font-semibold leading-tight drop-shadow-2xl" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em', textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 16px rgba(0,0,0,0.6)' }}>
             <span className="block">What Happens When</span>
-            <span className="block">You Find Your Unique</span>
-            <span className="block">Balance</span>
+            <span className="block">You Find Your Unique&nbsp;Balance</span>
           </h2>
           
-          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-6 sm:mb-7 md:mb-8 font-bold break-words leading-relaxed" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.8), 0 0 12px rgba(0,0,0,0.6)' }}>
+          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-6 sm:mb-7 md:mb-8 font-semibold break-words leading-relaxed" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em', textShadow: '2px 2px 6px rgba(0,0,0,0.8), 0 0 12px rgba(0,0,0,0.6)' }}>
             <span className="block sm:inline">The Life That's Waiting</span>
             <span className="block sm:inline sm:ml-1">on the Other Side</span>
           </h3>
@@ -77,7 +76,7 @@ export function WhatHappensSection() {
             </div>
           </div>
           
-          <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white pt-5 sm:pt-6 md:pt-7 font-bold leading-relaxed pb-8 sm:pb-10 md:pb-12" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 16px rgba(0,0,0,0.6)' }}>
+          <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white pt-5 sm:pt-6 md:pt-7 font-semibold leading-relaxed pb-8 sm:pb-10 md:pb-12" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em', textShadow: '2px 2px 8px rgba(0,0,0,0.8), 0 0 16px rgba(0,0,0,0.6)' }}>
             <span className="block sm:inline">This isn't just healing.</span>
             <span className="block sm:inline sm:ml-1">This is leadership from the inside out.</span>
           </h3>

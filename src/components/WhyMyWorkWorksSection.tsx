@@ -41,17 +41,17 @@ export function WhyMyWorkWorksSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         {/* Main Title */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-4 sm:mb-6 font-bold">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-4 sm:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Why My Work Works
           </h2>
         </div>
 
         {/* Introductory Text */}
         <div className="text-center mb-10 sm:mb-12 md:mb-16 max-w-4xl mx-auto">
-          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-4 font-semibold">
+          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed mb-4 font-semibold" style={{ fontFamily: "'Outfit', sans-serif" }}>
             I don't just teach subconscious transformation. I lived it. While sleep-deprived and overwhelmed, I rewired my own patterns, then built a method so effective 87% of my clients experience noticeable shifts within four sessions.
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed sm:whitespace-nowrap font-semibold">
+          <p className="text-base sm:text-lg md:text-xl text-black leading-relaxed sm:whitespace-nowrap font-semibold" style={{ fontFamily: "'Outfit', sans-serif" }}>
             To date, I've helped 600+ men and women in 15+ countries stop fighting themselves and start flowing.
           </p>
         </div>
@@ -65,7 +65,7 @@ export function WhyMyWorkWorksSection() {
                 <div className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7" style={{ backgroundColor: '#012194' }}>
                   <Check className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194' }}>
+                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}>
                   {award}
                 </p>
               </div>
@@ -79,7 +79,7 @@ export function WhyMyWorkWorksSection() {
                 <div className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7" style={{ backgroundColor: '#012194' }}>
                   <Check className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194' }}>
+                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}>
                   {award}
                 </p>
               </div>
@@ -89,10 +89,10 @@ export function WhyMyWorkWorksSection() {
 
         {/* Concluding Quote */}
         <div className="text-center max-w-4xl mx-auto">
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-purple-600 font-semibold leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-purple-600 font-semibold leading-relaxed" style={{ fontFamily: "'Spartan', sans-serif" }}>
             "Because when you find your unique balance, success stops being something you chase, and becomes something you embody."
           </p>
-          <p className="text-sm sm:text-base md:text-lg text-purple-600 font-semibold mt-3 sm:mt-4">
+          <p className="text-sm sm:text-base md:text-lg text-purple-600 font-semibold mt-3 sm:mt-4" style={{ fontFamily: "'Spartan', sans-serif" }}>
             - Carla Marcos
           </p>
         </div>

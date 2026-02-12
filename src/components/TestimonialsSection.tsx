@@ -2,6 +2,33 @@ import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
 
 export function TestimonialsSection() {
+  // Helper function to render text with percentages in Spartan font
+  const renderTextWithPercentages = (text: string) => {
+    const parts = text.split(/(\d+%|\d+-\d+%)/g);
+    return parts.map((part, i) => 
+      /\d+%|\d+-\d+%/.test(part) ? (
+        <span key={i} style={{ fontFamily: "'Spartan', sans-serif" }}>{part}</span>
+      ) : (
+        part
+      )
+    );
+  };
+
+  // Helper function to render percentage with proper structure for ranges
+  const renderPercentage = (percentage: string) => {
+    if (percentage.includes('-')) {
+      const [start, end] = percentage.split('-');
+      return (
+        <div className="flex items-baseline gap-1">
+          <span>{start}</span>
+          <span className="text-2xl sm:text-3xl">-</span>
+          <span>{end}</span>
+        </div>
+      );
+    }
+    return <span>{percentage}</span>;
+  };
+
   const stats = [
     {
       percentage: "40-60%",
@@ -57,7 +84,7 @@ export function TestimonialsSection() {
   ];
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-visible">
       {/* Stats Section - Built with Components */}
       <div className="relative w-full bg-gradient-to-b from-black via-indigo-950 to-purple-950 py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-[1440px] mx-auto">
@@ -70,32 +97,32 @@ export function TestimonialsSection() {
               >
                 {stat.splitFormat ? (
                   <>
-                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3">
-                      {stat.descriptionBefore}
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                      {renderTextWithPercentages(stat.descriptionBefore)}
                     </p>
-                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-bold h-12 sm:h-14 flex items-center">
-                      {stat.percentage}
+                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-normal h-12 sm:h-14 flex items-center" style={{ fontFamily: "'Spartan', sans-serif" }}>
+                      {renderPercentage(stat.percentage)}
                     </div>
-                    <p className="text-white/90 text-xs sm:text-sm leading-snug">
-                      {stat.descriptionAfter}
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                      {renderTextWithPercentages(stat.descriptionAfter)}
                     </p>
                   </>
                 ) : stat.reverseOrder ? (
                   <>
-                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3">
-                      {stat.description}
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug mb-2 sm:mb-3 mt-4 sm:mt-5" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                      {renderTextWithPercentages(stat.description)}
                     </p>
-                    <div className="text-4xl sm:text-5xl text-white font-bold h-12 sm:h-14 flex items-center">
-                      {stat.percentage}
+                    <div className="text-4xl sm:text-5xl text-white font-normal h-12 sm:h-14 flex items-center" style={{ fontFamily: "'Spartan', sans-serif" }}>
+                      {renderPercentage(stat.percentage)}
                     </div>
                   </>
                 ) : (
                   <>
-                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-bold h-12 sm:h-14 flex items-center">
-                      {stat.percentage}
+                    <div className="text-4xl sm:text-5xl text-white mb-2 sm:mb-3 font-normal h-12 sm:h-14 flex items-center" style={{ fontFamily: "'Spartan', sans-serif" }}>
+                      {renderPercentage(stat.percentage)}
                     </div>
-                    <p className="text-white/90 text-xs sm:text-sm leading-snug">
-                      {stat.description}
+                    <p className="text-white/90 text-xs sm:text-sm leading-snug" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                      {renderTextWithPercentages(stat.description)}
                     </p>
                   </>
                 )}
@@ -104,7 +131,7 @@ export function TestimonialsSection() {
           </div>
           
           {/* Bottom text */}
-          <p className="text-white/90 text-center mb-6 sm:mb-7 md:mb-8 max-w-4xl mx-auto text-sm sm:text-base md:text-lg px-4">
+          <p className="text-white/90 text-center mb-6 sm:mb-7 md:mb-8 w-full max-w-[95%] sm:max-w-[90%] md:max-w-[85%] lg:max-w-[80%] xl:max-w-[75%] 2xl:max-w-[70%] mx-auto text-sm sm:text-base md:text-lg px-4 overflow-visible" style={{ fontFamily: "'Outfit', sans-serif", wordBreak: 'normal', overflowWrap: 'normal' }}>
             These numbers reflect what I see in practice every day: fast, lasting, whole-person transformation rooted in science.
           </p>
           

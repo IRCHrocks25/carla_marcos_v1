@@ -27,7 +27,7 @@ export function FinalCTASection() {
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
           <div className="text-center space-y-6 sm:space-y-7 md:space-y-8">
             {/* Main headline */}
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
               Ready for the Change That Lasts?
             </h2>
             
