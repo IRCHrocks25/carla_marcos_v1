@@ -26,19 +26,20 @@ export function TransformationProgramSection() {
               Helping someone transform isn't just about them. It's about the energy they carry into their families, teams, and communities. Positive change spreads.
             </p>
             
-            <p className="text-lg sm:text-xl md:text-2xl text-white max-w-4xl mx-auto mb-8 sm:mb-9 md:mb-10 leading-relaxed">
+            <p className="text-lg sm:text-xl md:text-2xl text-white max-w-4xl mx-auto mb-8 sm:mb-9 md:mb-10 leading-relaxed font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
               Ready to rewire your mind for peak performance, emotional mastery, and true success? Let's start your breakthrough today.
             </p>
             
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl mb-6 sm:mb-8 font-bold w-full sm:w-auto"
+              className="text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl mb-6 sm:mb-8 font-bold w-full sm:w-auto hover:opacity-90 transition-opacity"
+              style={{ fontFamily: "'Outfit', sans-serif", backgroundImage: 'linear-gradient(to right, #A443FD, #830CF5)' }}
             >
               Book your Initial Consultation
               <ArrowUpRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
             </Button>
             
-            <p className="text-base sm:text-lg text-purple-100">
+            <p className="text-lg sm:text-xl text-purple-100 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
               Work with me globally, online, in English or Spanish
             </p>
           </div>
