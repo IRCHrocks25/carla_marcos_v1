@@ -81,17 +81,17 @@ export function PersonBecomingSection() {
 
         {/* Bottom CTA section */}
         <div className="text-center space-y-5 sm:space-y-6 md:space-y-8">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-purple-600 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-600 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
             Step Into the Person You're Becoming
           </h3>
           
-          <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-3xl mx-auto px-4">
+          <p className="text-black text-sm sm:text-base md:text-lg max-w-4xl mx-auto px-4 whitespace-nowrap">
             You've carried everyone else. Now it's your turn to feel supported, restored, and unstoppable.
           </p>
           
           <button
             onClick={() => console.log('Clicked: Start transformation CTA')}
-            className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 rounded-full text-sm sm:text-base md:text-lg font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+            className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 rounded-lg text-sm sm:text-base md:text-lg font-bold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 w-full sm:w-auto"
           >
             Start your transformation today
             <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,8 +99,8 @@ export function PersonBecomingSection() {
             </svg>
           </button>
           
-          <p className="text-purple-600 font-bold text-base sm:text-lg md:text-xl max-w-4xl mx-auto leading-relaxed px-4">
-            Because the person you're becoming deserves to live in alignment, with clarity, calm, and unique balance.
+          <p className="text-purple-600 text-lg sm:text-xl md:text-2xl max-w-5xl mx-auto leading-relaxed px-4">
+            "Because the person you're becoming deserves to live in alignment, with clarity,<br />calm, and unique balance."
           </p>
         </div>
       </div>

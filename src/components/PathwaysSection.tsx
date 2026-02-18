@@ -165,8 +165,9 @@ export function PathwaysSection() {
         <div className="mt-12 sm:mt-16 md:mt-20 text-center">
           <h3 
             className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4 sm:mb-5 md:mb-6 font-semibold px-4 leading-tight"
-            style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}
             style={{
+              fontFamily: "'Spartan', sans-serif", 
+              letterSpacing: '-0.02em',
               background: 'linear-gradient(to right, #A341FD, #0057EF)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
@@ -180,13 +181,15 @@ export function PathwaysSection() {
             The Diamond Transformation Program™ doesn't just help you cope, it rewires your mind for a life that feels lighter, clearer, and completely your own.
           </p>
           
-          <p className="text-purple-300 text-base sm:text-lg md:text-xl mb-8 sm:mb-9 md:mb-10 max-w-3xl mx-auto leading-relaxed px-4">
-            Start your transformation today and experience the calm, clarity, and confidence you've been craving.
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8 sm:mb-9 md:mb-10 max-w-4xl mx-auto leading-relaxed px-4 font-bold" style={{ color: '#652da9' }}>
+            Start your transformation today and experience the calm, clarity, and<br />
+confidence you've been craving.
           </p>
           
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-600 hover:from-purple-600 hover:via-pink-600 hover:to-purple-700 text-white px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 text-base sm:text-lg md:text-xl font-bold shadow-2xl w-full sm:w-auto mx-4 whitespace-normal"
+            className="text-white px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 text-base sm:text-lg md:text-xl font-bold shadow-2xl w-full sm:w-auto mx-4 whitespace-normal"
+            style={{ backgroundColor: '#a441fe' }}
           >
             <span className="block sm:inline">Book your Initial Consultation</span>
             <span className="block sm:inline sm:ml-1">today</span>

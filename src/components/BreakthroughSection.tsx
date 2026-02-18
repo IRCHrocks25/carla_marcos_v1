@@ -14,9 +14,8 @@ export function BreakthroughSection() {
               The Exhaustion No One Talks About
             </h2>
             
-            <h3 className="text-xl sm:text-2xl md:text-3xl text-purple-600 leading-snug font-semibold w-full pr-0 sm:pr-4 md:pr-8" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
-              <span className="block">The Woman Who Rewires Minds</span>
-              <span className="block">(Including Her Own) Wants to Set You&nbsp;Free</span>
+            <h3 className="text-xl sm:text-2xl md:text-3xl leading-snug font-semibold w-full max-w-xl pr-0 sm:pr-4 md:pr-8 whitespace-nowrap" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em', background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>
+              <span className="block" style={{ background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>The Woman Who Rewires Minds (Including<br/>Her Own) Wants to Set You Free</span>
             </h3>
             
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed font-medium text-sm sm:text-base">
@@ -60,7 +59,7 @@ export function BreakthroughSection() {
           </div>
           
           {/* Right image */}
-          <div className="relative flex justify-center order-1 md:order-2">
+          <div className="relative flex justify-start order-1 md:order-2 pl-4 sm:pl-8 md:pl-12">
             <div className="rounded-2xl overflow-hidden shadow-2xl bg-black w-full max-w-md md:max-w-none">
               <ImageWithFallback
                 src={carlaImage}

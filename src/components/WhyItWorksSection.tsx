@@ -70,16 +70,15 @@ export function WhyItWorksSection() {
         
         <div className="text-center">
           <div className="text-white text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 max-w-7xl mx-auto font-semibold leading-relaxed px-4">
-            <span className="block">So now, I've decided to dedicate my life to helping you transform the mind that creates your life, so that you can stop pushing</span>
-            <span className="block">against invisible walls and start flowing toward the life you truly want.&nbsp;Interested?</span>
+            <span className="block text-lg sm:text-xl md:text-2xl">So now, I've decided to dedicate my life to helping you transform your mind that creates your life, so that you can <br/> stop pushing against invisible walls and start flowing toward the life you truly want.&nbsp;Interested?</span>
           </div>
           
           <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white px-8 sm:px-10 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+            size="xl" 
+            className="bg-purple-600 hover:bg-purple-700 text-white px-8 sm:px-12 py-5 sm:py-6 text-1xl sm:text-2xl font-bold mx-auto transition-all duration-300 hover:scale-105 relative overflow-hidden group rounded-lg flex items-center justify-between"
           >
             Start Your Transformation
-            <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+            <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
           </Button>
         </div>
       </div>
