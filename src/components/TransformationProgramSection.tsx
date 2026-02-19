@@ -4,7 +4,8 @@ import { ArrowUpRight } from 'lucide-react';
 
 import rippleBg from 'figma:asset/590ec3243077f53316f4fba98bda07e7e6c2a531.png';
 
-
+// Booking URL - Update this with your actual booking/consultation link
+const BOOKING_URL = 'https://calendly.com';
 
 export function TransformationProgramSection() {
 
@@ -54,11 +55,11 @@ export function TransformationProgramSection() {
 
             
 
-            <p className="text-sm sm:text-base md:text-lg text-white max-w-4xl mx-auto mb-8 sm:mb-9 md:mb-10 leading-relaxed font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
+            <p className="text-xl sm:text-xl md:text-2xl text-white max-w-6xl mx-auto mb-8 sm:mb-9 md:mb-10 leading-relaxed font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
 
-              Ready to rewire your mind for peak performance, emotional mastery, and true success?<br />
+              Ready to rewire your mind for peak performance, emotional mastery,<br />
 
-              Let's start your breakthrough today.
+              and true success? Let's start your breakthrough today.
 
             </p>
 
@@ -68,9 +69,11 @@ export function TransformationProgramSection() {
 
               size="lg" 
 
-              className="text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl mb-6 sm:mb-8 font-bold w-full sm:w-auto hover:opacity-90 transition-opacity"
+              className="text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl mb-4 sm:mb-5 font-bold w-full sm:w-auto hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
 
               style={{ fontFamily: "'Outfit', sans-serif", backgroundImage: 'linear-gradient(to right, #A443FD, #830CF5)' }}
+
+              onClick={() => window.open(BOOKING_URL, '_blank', 'noopener,noreferrer')}
 
             >
 
@@ -79,6 +82,12 @@ export function TransformationProgramSection() {
               <ArrowUpRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
 
             </Button>
+
+            <p className="text-white text-base sm:text-lg md:text-xl text-center font-semibold opacity-90" style={{ fontFamily: "'Spartan', sans-serif" }}>
+
+              Work with me globally, online, in English or Spanish
+
+            </p>
 
           </div>
 
