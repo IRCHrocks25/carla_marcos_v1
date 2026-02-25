@@ -12,26 +12,6 @@ export function ResultsSection() {
             style={{ backgroundImage: `url(${bgImage})` }}
           />
           
-          {/* Decorative wavy lines overlay */}
-          <div className="absolute inset-0 w-full h-full opacity-40">
-            <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 800 600">
-              <defs>
-                <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#ec4899" />
-                  <stop offset="100%" stopColor="#a855f7" />
-                </linearGradient>
-              </defs>
-              {/* Multiple wavy curved lines */}
-              <path d="M0,100 Q200,50 400,100 T800,100" stroke="url(#waveGradient1)" strokeWidth="3" fill="none" opacity="0.8"/>
-              <path d="M0,150 Q200,100 400,150 T800,150" stroke="url(#waveGradient1)" strokeWidth="2.5" fill="none" opacity="0.7"/>
-              <path d="M0,200 Q200,150 400,200 T800,200" stroke="url(#waveGradient1)" strokeWidth="3" fill="none" opacity="0.6"/>
-              <path d="M0,250 Q200,200 400,250 T800,250" stroke="url(#waveGradient1)" strokeWidth="2" fill="none" opacity="0.5"/>
-              <path d="M0,300 Q200,250 400,300 T800,300" stroke="url(#waveGradient1)" strokeWidth="2.5" fill="none" opacity="0.6"/>
-              <path d="M0,350 Q200,300 400,350 T800,350" stroke="url(#waveGradient1)" strokeWidth="3" fill="none" opacity="0.7"/>
-              <path d="M0,400 Q200,350 400,400 T800,400" stroke="url(#waveGradient1)" strokeWidth="2" fill="none" opacity="0.5"/>
-            </svg>
-          </div>
-          
           <div className="relative z-10">
             {/* Content */}
             <div className="p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 max-w-2xl space-y-4 sm:space-y-5 md:space-y-6">
@@ -93,7 +73,8 @@ export function ResultsSection() {
               
               <button
                 onClick={() => console.log('Clicked: Get the Free Toolkit Now')}
-                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-lg text-base sm:text-lg font-bold mt-3 md:mt-4 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer w-full sm:w-auto"
+                className="inline-flex items-center justify-center gap-2 hover:opacity-90 text-white px-6 sm:px-8 py-4 sm:py-5 rounded-lg text-base sm:text-lg font-bold mt-3 md:mt-4 transition-all duration-300 hover:shadow-xl hover:scale-105 cursor-pointer w-full sm:w-auto"
+                style={{ background: 'linear-gradient(to right, #830CF5, #830CF5)' }}
               >
                 Get the Free Toolkit Now
                 <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />

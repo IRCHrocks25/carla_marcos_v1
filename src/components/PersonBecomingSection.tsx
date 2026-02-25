@@ -6,7 +6,7 @@ export function PersonBecomingSection() {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         {/* Main heading */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
             The person you're becoming
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-purple-600 font-semibold">
@@ -81,7 +81,7 @@ export function PersonBecomingSection() {
 
         {/* Bottom CTA section */}
         <div className="text-center space-y-5 sm:space-y-6 md:space-y-8">
-          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-600 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-600 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
             Step Into the Person You're Becoming
           </h3>
           

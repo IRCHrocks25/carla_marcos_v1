@@ -16,9 +16,9 @@ export function HypnotherapySection() {
       {/* Enhanced overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-black/20 pointer-events-none z-[1]"></div>
       
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-[2] w-full py-12 sm:py-16 md:py-20 lg:py-24" style={{ marginTop: '0', paddingTop: '20vh' }}>
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-[2] w-full py-12 sm:py-16 md:py-20 lg:py-24" style={{ marginTop: '0', paddingTop: '35vh' }}>
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em', textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5)' }}>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5)' }}>
             Scientific Evidence of Hypnotherapy
           </h2>
           

@@ -24,7 +24,7 @@ export function WhyItWorksSection() {
       
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10">
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-3 sm:mb-4 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white mb-3 sm:mb-4 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif" }}>
             The Woman Behind the Breakthrough
           </h2>
           <h3 className="text-xl sm:text-2xl md:text-3xl text-white/90 font-semibold" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
@@ -34,9 +34,9 @@ export function WhyItWorksSection() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 text-white max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12">
           {/* Left column */}
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8', letterSpacing: '0.01em' }}>
+          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8' }}>
             <p className="text-base sm:text-lg md:text-xl">
-              I thought I knew everything about the mind...
+              I thought I knew everything about the mind.
             </p>
             
             <p className="text-base sm:text-lg md:text-xl">
@@ -49,7 +49,7 @@ export function WhyItWorksSection() {
           </div>
           
           {/* Right column */}
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8', letterSpacing: '0.01em' }}>
+          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8' }}>
             <p className="text-base sm:text-lg md:text-xl">
               Building a business. And trying to juggle it all by myself while my husband traveled for work...
             </p>

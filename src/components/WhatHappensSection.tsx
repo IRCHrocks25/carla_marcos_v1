@@ -38,7 +38,7 @@ export function WhatHappensSection() {
       {/* Content */}
       <div className="relative z-10 -ml-2 pr-4 sm:-ml-1 sm:pr-6 md:pl-0 md:pr-8 lg:pl-2 lg:pr-12 py-12 sm:py-16 md:py-20 lg:py-24 max-w-6xl mx-auto">
         <div className="space-y-5 sm:space-y-6 md:space-y-7 w-full">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif" }}>
             <span className="block">What Happens When You Find</span>
             <br />
             <span className="block">Your Unique Balance</span>

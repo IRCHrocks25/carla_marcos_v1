@@ -19,12 +19,12 @@ export function HeroSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-20 items-start md:items-center">
           {/* Left content */}
           <div className="text-white space-y-3 sm:space-y-4 md:space-y-5 order-2 md:order-1 -mt-12 sm:mt-0">
-            <h1 className="font-semibold text-left m-0 p-0" style={{ fontFamily: "'Spartan', sans-serif", lineHeight: '1.1', letterSpacing: '-0.02em' }}>
+            <h1 className="font-semibold text-left m-0 p-0" style={{ fontFamily: "'Spartan', sans-serif", lineHeight: '1.1' }}>
               <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-left m-0 p-0">STOP PUSHING.</div>
               <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-left m-0 p-0">START FLOWING.</div>
             </h1>
             
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif" }}>
               <span className="block sm:inline">Transform the Mind That Creates Your Life,</span>
               <span className="block sm:inline sm:ml-1">And Find Your Unique Balance</span>
             </h2>

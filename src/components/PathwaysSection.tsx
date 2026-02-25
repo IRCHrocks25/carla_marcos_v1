@@ -86,11 +86,11 @@ export function PathwaysSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           {/* Left Column - Program Info */}
           <div className="text-white space-y-5 sm:space-y-6 md:space-y-7 pb-8 sm:pb-0">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-5 leading-tight font-semibold md:whitespace-nowrap text-white drop-shadow-lg" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
-              The Diamond Transformation Program®
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-5 leading-tight font-semibold md:whitespace-nowrap text-white drop-shadow-lg" style={{ fontFamily: "'Spartan', sans-serif" }}>
+              The Diamond Transformation Program
             </h2>
             
-            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-200 sm:text-purple-300 mb-5 sm:mb-6 md:mb-7 font-semibold drop-shadow-md" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-purple-200 sm:text-purple-300 mb-5 sm:mb-6 md:mb-7 font-semibold drop-shadow-md" style={{ fontFamily: "'Spartan', sans-serif" }}>
               How to Rewire a Lifetime in Weeks, Not Years
             </h3>
             
@@ -108,7 +108,7 @@ export function PathwaysSection() {
               </p>
               
               <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
-                The Marcos Method™ is different. It's based on a simple truth: your brain is neuroplastic, which means the patterns running your life can be rewritten, much like updating software.
+                The Marcos Method is different. It's based on a simple truth: your brain is neuroplastic, which means the patterns running your life can be rewritten, much like updating software.
               </p>
               
               <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
@@ -133,7 +133,7 @@ export function PathwaysSection() {
                   className="w-full px-4 sm:px-5 md:px-6 py-4 sm:py-5 md:py-6 flex items-center justify-between text-left hover:bg-white/10 transition-colors"
                 >
                   <div className="flex-1 pr-3">
-                    <h4 className="text-lg sm:text-xl md:text-2xl text-white mb-2 font-semibold drop-shadow-md" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+                    <h4 className="text-lg sm:text-xl md:text-2xl text-white mb-2 font-semibold drop-shadow-md" style={{ fontFamily: "'Spartan', sans-serif" }}>
                       {stage.title}
                     </h4>
                     <p className="text-purple-200 sm:text-purple-100 text-sm sm:text-base font-medium drop-shadow-sm">
@@ -166,22 +166,18 @@ export function PathwaysSection() {
           <h3 
             className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-4 sm:mb-5 md:mb-6 font-semibold px-4 leading-tight"
             style={{
-              fontFamily: "'Spartan', sans-serif", 
-              letterSpacing: '-0.02em',
-              background: 'linear-gradient(to right, #A341FD, #0057EF)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text'
+              fontFamily: "'Spartan', sans-serif",
+              color: '#A341FD'
             }}
           >
             From Survival Mode to Self-Mastery, in Weeks, Not Years
           </h3>
           
           <p className="text-white text-sm sm:text-base md:text-lg mb-4 sm:mb-5 md:mb-6 max-w-3xl mx-auto px-4">
-            The Diamond Transformation Program™ doesn't just help you cope, it rewires your mind for a life that feels lighter, clearer, and completely your own.
+            The Diamond Transformation Program doesn't just help you cope, it rewires your mind for a life that feels lighter, clearer, and completely your own.
           </p>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8 sm:mb-9 md:mb-10 max-w-4xl mx-auto leading-relaxed px-4 font-bold" style={{ color: '#652da9' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-8 sm:mb-9 md:mb-10 max-w-4xl mx-auto leading-relaxed px-4 font-bold" style={{ color: '#A341FD' }}>
             Start your transformation today and experience the calm, clarity, and<br />
 confidence you've been craving.
           </p>

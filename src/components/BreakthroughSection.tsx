@@ -10,11 +10,11 @@ export function BreakthroughSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
           {/* Left content */}
           <div className="space-y-4 sm:space-y-5 md:space-y-6 order-2 md:order-1 max-w-full">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-900 leading-tight font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-900 leading-tight font-semibold tracking-normal" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: 0 }}>
               The Exhaustion No One Talks About
             </h2>
             
-            <h3 className="text-xl sm:text-2xl md:text-3xl leading-snug font-semibold w-full max-w-xl pr-0 sm:pr-4 md:pr-8 whitespace-nowrap" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em', background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>
+            <h3 className="text-xl sm:text-2xl md:text-3xl leading-snug font-semibold w-full max-w-xl pr-0 sm:pr-4 md:pr-8 whitespace-nowrap" style={{ fontFamily: "'Spartan', sans-serif", background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>
               <span className="block" style={{ background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', color: 'transparent' }}>The Woman Who Rewires Minds (Including<br/>Her Own) Wants to Set You Free</span>
             </h3>
             
@@ -44,7 +44,7 @@ export function BreakthroughSection() {
               Your conscious mind got you here. Your subconscious mind will set you free.
             </p>
             
-            <h3 className="text-xl sm:text-2xl text-purple-600 font-semibold pt-4 sm:pt-5 md:pt-6" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+            <h3 className="text-xl sm:text-2xl text-purple-600 font-semibold pt-4 sm:pt-5 md:pt-6" style={{ fontFamily: "'Spartan', sans-serif" }}>
               Ready to stop pushing and start flowing?
             </h3>
             

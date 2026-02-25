@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { ArrowUpRight } from 'lucide-react';
 
 import rippleBg from 'figma:asset/590ec3243077f53316f4fba98bda07e7e6c2a531.png';
+import vectorBg from '../assets/backrounds/Vector.png';
 
 // Booking URL - Update this with your actual booking/consultation link
 const BOOKING_URL = 'https://calendly.com';
@@ -39,7 +40,7 @@ export function TransformationProgramSection() {
 
           >
 
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
 
               The Ripple Effect
 
@@ -47,7 +48,7 @@ export function TransformationProgramSection() {
 
             
 
-            <p className="text-sm sm:text-base md:text-lg text-purple-100 max-w-3xl mx-auto mb-6 sm:mb-7 md:mb-8 leading-relaxed font-semibold">
+            <p className="text-sm sm:text-base md:text-lg text-purple-100 max-w-3xl mx-auto mb-6 sm:mb-7 md:mb-8 leading-relaxed font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
 
               Helping someone transform isn't just about them. It's about the energy they carry into their families, teams, and communities. Positive change spreads.
 
@@ -103,7 +104,7 @@ export function TransformationProgramSection() {
 
           <div className="space-y-6 sm:space-y-7 md:space-y-8 overflow-visible">
 
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 leading-tight font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em', whiteSpace: 'pre-line' }}>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 leading-tight font-semibold" style={{ fontFamily: "'Spartan', sans-serif", whiteSpace: 'pre-line' }}>
 
               The Exhaustion No One
 
@@ -115,7 +116,7 @@ Talks About
 
             <div className="space-y-4 sm:space-y-5 md:space-y-6 overflow-visible">
 
-              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap overflow-visible -ml-2 sm:-ml-3 md:-ml-4" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em', backgroundImage: 'linear-gradient(to right, #7c3aed, #a78bfa)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold whitespace-nowrap overflow-visible -ml-2 sm:-ml-3 md:-ml-4" style={{ fontFamily: "'Spartan', sans-serif", backgroundImage: 'linear-gradient(to right, #7c3aed, #a78bfa)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>
 
                 When Your Success Becomes Your Prison
 
@@ -139,7 +140,7 @@ Talks About
 
               
 
-              <h3 className="text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent pt-2 sm:pt-3 md:pt-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+              <h3 className="text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent pt-2 sm:pt-3 md:pt-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
 
                 The invisible struggle of high-achievers:
 
@@ -215,22 +216,25 @@ Start your transformation today and experience the calm, clarity, and confidence
 
             
 
-            {/* Quote Box */}
-
-            <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-xl md:rounded-2xl p-6 sm:p-7 md:p-8 shadow-lg">
-
-              <p className="text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent italic mb-3 sm:mb-4 leading-relaxed font-bold">
-
-                "We can't 'think our way out of patterns that were never created by thinking in the first place.'"
-
-              </p>
-
-              <p className="text-purple-900 font-semibold text-sm sm:text-base">
-
-                - CARLA MARCOS
-
-              </p>
-
+            {/* Quote Box with Vector img at the back */}
+            <div className="relative rounded-2xl md:rounded-3xl p-8 sm:p-10 md:p-12 min-h-[220px] flex items-center justify-center">
+              {/* Vector image - independent element at the back, larger */}
+              <img 
+                src={vectorBg}
+                alt=""
+                className="absolute left-0 bottom-0 z-0 w-[280px] sm:w-[350px] md:w-[400px] h-auto opacity-50 object-contain object-left-bottom pointer-events-none"
+                style={{ transform: 'translateY(2rem)' }}
+              />
+              {/* Translucent quote box on top */}
+              <div className="relative z-10 mt-10 sm:mt-12 md:mt-16 rounded-2xl md:rounded-3xl p-4 sm:p-5 md:p-6 shadow-md text-left max-w-xl" style={{ backgroundColor: 'rgba(255, 255, 255, 0.65)' }}>
+                <p className="text-base sm:text-lg md:text-xl text-purple-600 font-medium mb-2 sm:mb-3 leading-relaxed">
+                  We can't think our way out of patterns that were never<br />
+                  created by thinking in the first place.
+                </p>
+                <p className="text-gray-900 font-normal text-xs sm:text-sm">
+                  - CARLA MARCOS
+                </p>
+              </div>
             </div>
 
           </div>

@@ -64,7 +64,7 @@ export function UniqueEdgeSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 relative z-10 overflow-visible">
         {/* Header */}
         <div className="text-center mb-10 sm:mb-12 md:mb-14 lg:mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em' }}>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
             Loved by Clients Around the World
           </h2>
           <p className="text-base sm:text-lg text-gray-700 font-medium">
@@ -94,7 +94,7 @@ export function UniqueEdgeSection() {
               {testimonials.map((testimonial, idx) => (
                 <CarouselItem key={idx} className="pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
                   <div className="bg-white rounded-xl md:rounded-2xl p-6 sm:p-7 md:p-8 shadow-sm border border-gray-100 relative h-full">
-                    <h3 className="text-xl sm:text-2xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.01em' }}>
+                    <h3 className="text-xl sm:text-2xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
                       {testimonial.title}
                     </h3>
                     
@@ -138,7 +138,7 @@ export function UniqueEdgeSection() {
         
         {/* CTA Section */}
         <div className="text-center max-w-4xl mx-auto px-4 pt-6 sm:pt-8 md:pt-10 pb-4 sm:pb-6 md:pb-8">
-          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent mb-5 sm:mb-6 font-semibold py-2 sm:py-3" style={{ fontFamily: "'Spartan', sans-serif", letterSpacing: '-0.02em', lineHeight: '1.2', paddingTop: '0.75rem', paddingBottom: '0.75rem', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+          <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent mb-5 sm:mb-6 font-semibold py-2 sm:py-3" style={{ fontFamily: "'Spartan', sans-serif", lineHeight: '1.2', paddingTop: '0.75rem', paddingBottom: '0.75rem', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
             Your Breakthrough Starts Here
           </h3>
           
