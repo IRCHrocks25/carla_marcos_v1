@@ -48,10 +48,10 @@ export function WhyMyWorkWorksSection() {
 
         {/* Introductory Text */}
         <div className="text-center mb-10 sm:mb-12 md:mb-16 max-w-5xl mx-auto">
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed mb-4 font-semibold" style={{ fontFamily: "'Outfit', sans-serif" }}>
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-4 font-normal text-black" style={{ fontFamily: "'Outfit', sans-serif" }}>
             I don't just teach subconscious transformation. I lived it. While sleep-deprived and overwhelmed,<br /> I rewired my own patterns, then built a method so effective 87% of my clients experience <br /> noticeable shifts within four sessions.
           </p>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600 leading-relaxed sm:whitespace-nowrap font-semibold" style={{ fontFamily: "'Outfit', sans-serif" }}>
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed sm:whitespace-nowrap font-normal text-black" style={{ fontFamily: "'Outfit', sans-serif" }}>
             To date, I've helped 600+ men and women in 15+ countries stop fighting themselves and start flowing.
           </p>
         </div>
