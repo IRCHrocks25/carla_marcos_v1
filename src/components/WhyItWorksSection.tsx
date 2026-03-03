@@ -74,11 +74,11 @@ export function WhyItWorksSection() {
           </div>
           
           <Button 
-            size="xl" 
-            className="bg-purple-600 hover:bg-purple-700 text-white px-8 sm:px-12 py-5 sm:py-6 text-1xl sm:text-2xl font-bold mx-auto transition-all duration-300 hover:scale-105 relative overflow-hidden group rounded-lg flex items-center justify-between"
+            size="lg" 
+            className="bg-purple-600 hover:bg-purple-700 text-white px-6 sm:px-8 md:px-12 py-4 sm:py-5 md:py-6 text-base sm:text-lg md:text-xl lg:text-2xl font-bold w-full sm:w-auto mx-auto transition-all duration-300 hover:scale-105 relative overflow-hidden group rounded-lg flex items-center justify-center"
           >
             Start Your Transformation
-            <ArrowRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
+            <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </Button>
         </div>
       </div>

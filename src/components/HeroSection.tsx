@@ -24,18 +24,18 @@ export function HeroSection() {
               <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-left m-0 p-0">START FLOWING.</div>
             </h1>
             
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif" }}>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-white font-semibold leading-tight text-left m-0 p-0" style={{ fontFamily: "'Spartan', sans-serif" }}>
               <span className="block sm:inline">Transform the Mind That Creates Your Life,</span>
-              <span className="block sm:inline sm:ml-1">And Find Your Unique Balance</span>
+              <span className="block sm:inline">And Find Your Unique Balance</span>
             </h2>
             
-            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium break-words">
+            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-normal break-words" style={{ fontFamily: "'Outfit', sans-serif" }}>
               You're smart. You're capable. You've achieved what others dream of, yet 
               something still feels off. The books, courses, and willpower have only 
               taken you so far... because the real change happens deeper.
             </p>
             
-            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-medium break-words" style={{ fontFamily: "'Outfit', sans-serif" }}>
+            <p className="text-purple-100 text-sm sm:text-base md:text-lg leading-relaxed font-normal break-words" style={{ fontFamily: "'Outfit', sans-serif" }}>
               I combine the drive and precision of a pharma lawyer, the holistic care of 
               a nurse, and the deep transformation tools of a multi-award-winning 
               clinical hypnotherapist to help you rewire the subconscious patterns 
@@ -48,17 +48,18 @@ export function HeroSection() {
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal"
                 >
-                  Start Your Transformation
-                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                  <span className="block sm:inline">Start Your</span>
+                  <span className="block sm:inline sm:ml-1">Transformation</span>
+                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
                 </Button>
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal"
                 >
                   Begin the Shift
-                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
                 </Button>
               </div>
             </div>

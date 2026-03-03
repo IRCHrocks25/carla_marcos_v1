@@ -44,9 +44,10 @@ export function FinalCTASection() {
             
             {/* Main CTA button */}
             <div className="pt-3 sm:pt-4 px-4">
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 font-bold w-full sm:w-auto">
-                Take the 5-Minute Self-Check
-                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+              <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-sm sm:text-base md:text-lg px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-5 md:py-6 lg:py-7 font-bold w-full sm:w-auto whitespace-normal">
+                <span className="block sm:inline">Take the 5-Minute</span>
+                <span className="block sm:inline sm:ml-1">Self-Check</span>
+                <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
               </Button>
             </div>
             
@@ -60,25 +61,25 @@ export function FinalCTASection() {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto font-bold flex items-center justify-center text-sm sm:text-base"
+                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto font-bold flex items-center justify-center text-sm sm:text-base w-full"
                 >
                   Start with the Free Toolkit
-                  <ArrowRight className="ml-2 w-4 h-4" />
+                  <ArrowRight className="ml-2 w-4 h-4 flex-shrink-0" />
                 </Button>
                 
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto font-bold flex items-center justify-center text-sm sm:text-base"
+                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto font-bold flex items-center justify-center text-sm sm:text-base w-full"
                 >
                   The Self-Liberation Collection
-                  <ArrowRight className="ml-2 w-4 h-4" />
+                  <ArrowRight className="ml-2 w-4 h-4 flex-shrink-0" />
                 </Button>
                 
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto whitespace-normal font-bold flex items-center justify-center text-sm sm:text-base sm:col-span-2 lg:col-span-1"
+                  className="border-2 border-purple-600 text-purple-700 hover:bg-purple-50 py-5 sm:py-6 h-auto whitespace-normal font-bold flex items-center justify-center text-sm sm:text-base w-full sm:col-span-2 lg:col-span-1"
                 >
                   Book Your Initial Consultation | 1:1 Session
                   <ArrowRight className="ml-2 w-4 h-4 flex-shrink-0" />

@@ -42,7 +42,7 @@ export function ExhaustionSection() {
               When your conscious and subconscious finally align, success stops feeling like a battle and starts feeling inevitable
             </h2>
             
-            <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed font-normal" style={{ lineHeight: '1.8' }}>
+            <p className="text-black text-base sm:text-lg md:text-xl leading-relaxed font-normal" style={{ lineHeight: '1.8' }}>
               You might feel stuck right now, like you're caught in patterns you just can't escape. And no matter what you do, you circle back to that same old, familiar, unwanted mode. But here's the good news: your brain can be rewired.
             </p>
           </div>

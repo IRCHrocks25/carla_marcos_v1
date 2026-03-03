@@ -93,7 +93,7 @@ export function UniqueEdgeSection() {
             <CarouselContent className="-ml-4">
               {testimonials.map((testimonial, idx) => (
                 <CarouselItem key={idx} className="pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
-                  <div className="bg-white rounded-xl md:rounded-2xl p-6 sm:p-7 md:p-8 shadow-sm border border-gray-100 relative h-full">
+                  <div className="relative h-full">
                     <h3 className="text-xl sm:text-2xl text-gray-900 mb-3 sm:mb-4 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
                       {testimonial.title}
                     </h3>
@@ -112,8 +112,6 @@ export function UniqueEdgeSection() {
                           <span className="ml-2 text-gray-900 font-semibold text-sm sm:text-base">{testimonial.rating}</span>
                         </div>
                       </div>
-                      
-                      <div className="text-5xl sm:text-6xl text-blue-900 leading-none">"</div>
                     </div>
                   </div>
                 </CarouselItem>
@@ -149,18 +147,18 @@ export function UniqueEdgeSection() {
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto"
             >
-              Read 30+ Full Client Stories
-              <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="inline-block">Read 30+ Full Client Stories</span>
+              <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 inline-block" />
             </Button>
             
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-6 sm:px-8 py-5 sm:py-6 text-base sm:text-lg font-bold w-full sm:w-auto"
+              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal text-center"
             >
               Book your Initial Consultation today
-              <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+              <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
             </Button>
           </div>
           

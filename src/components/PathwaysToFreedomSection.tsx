@@ -148,11 +148,10 @@ export function PathwaysToFreedomSection() {
           <Button 
             size="lg" 
             style={{ background: 'linear-gradient(to right, #830CF5, #A443FD)' }}
-            className="hover:opacity-90 text-white transition-opacity px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 text-base sm:text-lg md:text-xl font-bold shadow-xl w-full sm:w-auto whitespace-normal"
+            className="hover:opacity-90 text-white transition-opacity px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-5 md:py-6 lg:py-7 text-sm sm:text-base md:text-lg lg:text-xl font-bold shadow-xl w-full sm:w-auto"
           >
-            <span className="block sm:inline">Choose your pathway</span>
-            <span className="block sm:inline sm:ml-1">and begin now</span>
-            <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
+            <span className="inline-block">Choose your pathway and begin now</span>
+            <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0 inline-block" />
           </Button>
         </div>
       </div>

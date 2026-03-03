@@ -70,7 +70,7 @@ export function TransformationProgramSection() {
 
               size="lg" 
 
-              className="text-white px-8 sm:px-10 py-6 sm:py-7 text-lg sm:text-xl mb-4 sm:mb-5 font-bold w-full sm:w-auto hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+              className="text-white px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-5 md:py-6 lg:py-7 text-sm sm:text-base md:text-lg lg:text-xl mb-4 sm:mb-5 font-bold w-full sm:w-auto hover:opacity-90 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer whitespace-normal text-center"
 
               style={{ fontFamily: "'Outfit', sans-serif", backgroundImage: 'linear-gradient(to right, #A443FD, #830CF5)' }}
 
@@ -80,7 +80,7 @@ export function TransformationProgramSection() {
 
               Book your Initial Consultation
 
-              <ArrowUpRight className="ml-2 w-5 h-5 sm:w-6 sm:h-6" />
+              <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
 
             </Button>
 

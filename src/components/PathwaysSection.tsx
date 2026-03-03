@@ -126,7 +126,8 @@ export function PathwaysSection() {
             {stages.map((stage, index) => (
               <div
                 key={index}
-                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-lg md:rounded-xl overflow-hidden shadow-lg"
+                className="backdrop-blur-md border border-white/20 rounded-lg md:rounded-xl overflow-hidden shadow-lg"
+                style={{ background: 'linear-gradient(to right, rgba(0, 10, 46, 0.2) 0%, #012194 100%)' }}
               >
                 <button
                   onClick={() => setExpandedStage(expandedStage === index ? -1 : index)}
@@ -184,11 +185,10 @@ confidence you've been craving.
           
           <Button 
             size="lg" 
-            className="text-white px-6 sm:px-8 md:px-10 py-5 sm:py-6 md:py-7 text-base sm:text-lg md:text-xl font-bold shadow-2xl w-full sm:w-auto mx-4 whitespace-normal"
+            className="text-white px-4 sm:px-6 md:px-8 lg:px-10 py-4 sm:py-5 md:py-6 lg:py-7 text-sm sm:text-base md:text-lg lg:text-xl font-bold shadow-2xl w-full sm:w-auto whitespace-normal text-center"
             style={{ backgroundColor: '#a441fe' }}
           >
-            <span className="block sm:inline">Book your Initial Consultation</span>
-            <span className="block sm:inline sm:ml-1">today</span>
+            Book your Initial Consultation today
             <ArrowUpRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex-shrink-0" />
           </Button>
         </div>
