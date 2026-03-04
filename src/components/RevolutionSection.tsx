@@ -68,8 +68,8 @@ export function RevolutionSection() {
               
               {/* Description */}
               <p
-                className="text-sm sm:text-base text-purple-100 leading-relaxed flex-1 flex items-start justify-center text-center max-w-xs sm:max-w-sm mx-auto font-normal"
-                style={{ fontFamily: "'Outfit', sans-serif" }}
+                className="text-sm sm:text-base text-purple-100 leading-relaxed flex-1 flex items-start justify-center text-center max-w-xs sm:max-w-sm mx-auto"
+                style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 300 }}
               >
                 {card.description}
               </p>

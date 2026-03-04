@@ -35,8 +35,8 @@ export default function WhyItWorksSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 text-white max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12">
           {/* Left column */}
           <div
-            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl"
-            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif" }}
+            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed text-base sm:text-lg md:text-xl"
+            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif", fontWeight: 400 }}
           >
             <p className="text-base sm:text-lg md:text-xl">
               I thought I knew everything about the mind.
@@ -53,8 +53,8 @@ export default function WhyItWorksSection() {
           
           {/* Right column */}
           <div
-            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl"
-            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif" }}
+            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed text-base sm:text-lg md:text-xl"
+            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif", fontWeight: 400 }}
           >
             <p className="text-base sm:text-lg md:text-xl">
               Building a business. And trying to juggle it all by myself while my husband traveled for work...

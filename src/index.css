@@ -3730,8 +3730,8 @@
   --input: transparent;
   --input-background: #f3f3f5;
   --switch-background: #cbced4;
-  --font-weight-medium: 600;
-  --font-weight-normal: 500;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
   --ring: oklch(.708 0 0);
   --chart-1: oklch(.646 .222 41.116);
   --chart-2: oklch(.6 .118 184.704);
