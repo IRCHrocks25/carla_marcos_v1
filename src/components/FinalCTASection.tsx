@@ -37,7 +37,10 @@ export function FinalCTASection() {
             </p>
             
             {/* Body text */}
-            <div className="space-y-2 text-gray-900 text-base sm:text-lg max-w-3xl mx-auto font-semibold px-4">
+            <div
+              className="space-y-2 text-gray-900 text-base sm:text-lg max-w-3xl mx-auto font-normal px-4"
+              style={{ fontFamily: "'Outfit', sans-serif" }}
+            >
               <p>Now it's time to lead from alignment, not exhaustion.</p>
               <p>Whether you're ready to start small or go deep, there's a path for you.</p>
             </div>
@@ -86,7 +89,10 @@ export function FinalCTASection() {
                 </Button>
               </div>
               
-              <p className="text-gray-800 text-xs sm:text-sm mt-5 sm:mt-6 max-w-3xl mx-auto font-medium px-4">
+              <p
+                className="text-gray-800 text-xs sm:text-sm mt-5 sm:mt-6 max-w-3xl mx-auto font-normal px-4"
+                style={{ fontFamily: "'Outfit', sans-serif" }}
+              >
                 Alternatively, you'll soon have the option to join one of our group programs, so you can grow, heal, and thrive 
                 alongside a supportive community.
               </p>
@@ -101,13 +107,16 @@ export function FinalCTASection() {
             
             {/* Disclaimer */}
             <div className="pt-6 sm:pt-8 px-4">
-              <p className="text-xs text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
+              <p
+                className="text-sm sm:text-base text-gray-700 max-w-4xl mx-auto leading-relaxed font-normal"
+                style={{ fontFamily: "'Outfit', sans-serif" }}
+              >
                 Disclaimer: Hypnotherapy is effective; however, results may vary, and success is not guaranteed. Full client commitment is important.
               </p>
             </div>
             
             {/* Professional Association Logos */}
-            <div className="pt-12 sm:pt-14 md:pt-16 pb-6 sm:pb-8 overflow-hidden px-12 sm:px-16 md:px-24 lg:px-32 xl:px-40">
+            <div className="pt-16 sm:pt-20 md:pt-24 pb-6 sm:pb-8 overflow-hidden px-12 sm:px-16 md:px-24 lg:px-32 xl:px-40">
               <div className="relative">
                 <div className="flex animate-marquee gap-4 sm:gap-6 md:gap-8">
                   {/* First set */}

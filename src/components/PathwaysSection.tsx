@@ -94,28 +94,28 @@ export function PathwaysSection() {
               How to Rewire a Lifetime in Weeks, Not Years
             </h3>
             
-            <div className="space-y-4 sm:space-y-5">
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
+            <div className="space-y-4 sm:space-y-5" style={{ fontFamily: "'Outfit', sans-serif" }}>
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm">
                 Forget everything you've been told about change taking time.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm">
                 Forget the idea that growth has to be painful.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm">
                 And definitely forget the belief that you need to dig through every childhood wound to move forward.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm">
                 The Marcos Method is different. It's based on a simple truth: your brain is neuroplastic, which means the patterns running your life can be rewritten, much like updating software.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm">
                 After our Initial Consultation, I'll prepare your bespoke plan to help you achieve your specific goals. This will balance planning with expert ad-hoc assessment as our sessions progress.
               </p>
               
-              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-medium drop-shadow-sm pb-4 sm:pb-0">
+              <p className="leading-relaxed text-sm sm:text-base md:text-lg text-white font-normal drop-shadow-sm pb-4 sm:pb-0">
                 Often, as we work together, we discover that what first appeared to be "the problem" is actually a coping strategy. That's why I'll naturally overlay and adapt the main stages of your plan to reflect the new insights and breakthroughs you experience along the way.
               </p>
             </div>
@@ -137,7 +137,10 @@ export function PathwaysSection() {
                     <h4 className="text-lg sm:text-xl md:text-2xl text-white mb-2 font-semibold drop-shadow-md" style={{ fontFamily: "'Spartan', sans-serif" }}>
                       {stage.title}
                     </h4>
-                    <p className="text-purple-200 sm:text-purple-100 text-sm sm:text-base font-medium drop-shadow-sm">
+                    <p
+                      className="text-purple-200 sm:text-purple-100 text-sm sm:text-base font-normal drop-shadow-sm"
+                      style={{ fontFamily: "'Outfit', sans-serif" }}
+                    >
                       {stage.subtitle}
                     </p>
                   </div>
@@ -151,7 +154,11 @@ export function PathwaysSection() {
                 {expandedStage === index && (
                   <div className="px-4 sm:px-5 md:px-6 pb-5 sm:pb-6 md:pb-7 pt-3 space-y-4 sm:space-y-5">
                     {stage.content.map((paragraph, idx) => (
-                      <p key={idx} className="text-white leading-relaxed text-sm sm:text-base md:text-lg font-medium drop-shadow-sm">
+                      <p
+                        key={idx}
+                        className="text-white leading-relaxed text-sm sm:text-base md:text-lg font-normal drop-shadow-sm"
+                        style={{ fontFamily: "'Outfit', sans-serif" }}
+                      >
                         {paragraph}
                       </p>
                     ))}

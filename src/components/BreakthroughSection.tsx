@@ -20,7 +20,7 @@ export function BreakthroughSection() {
               </span>
             </h3>
             
-            <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed font-medium text-sm sm:text-base">
+            <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed font-normal text-sm sm:text-base">
               <p>
                 You've mastered the art of looking like you have it all together.
               </p>
@@ -41,25 +41,7 @@ export function BreakthroughSection() {
                 I'm Carla Marcos and I've spent my life learning how to unlock the cage that even the most extraordinary people build around themselves.
               </p>
             </div>
-            
-            <div className="space-y-2 sm:space-y-3 text-gray-700 leading-relaxed font-normal text-sm sm:text-base pt-4 sm:pt-6" style={{ fontFamily: "'Outfit', sans-serif" }}>
-              <p>Top Hypnotherapy Program of the Year - IAOTB, USA (2025)</p>
-              <p>3 Best Rated Hypnotherapist in Harrogate, UK (2022-2025)</p>
-              <p>Clinical Hypnotherapist of the Year (UK) - LuxLife Magazine (2024)</p>
-              <p>Global CREA Award - Brainz Magazine, Sweden (2024)</p>
-              <p>Carla Marcos Lopez's Journey of Passion and Purpose - Brainz Magazine (Cover Feature 2024)</p>
-              <p>Empower Your Mind For Positive Change - Exclusive interview with Carla Marcos López - Brainz Magazine</p>
-              <p>Top 50 Fearless Leaders Award - IAOTP, USA (2024)</p>
-              <p>Top Clinical Hypnotherapist of the Year - IAOTP, USA (2024)</p>
-              <p>Women Leaders To Look Up To in 2025 - Passion Vista Magazine (Cover Feature)</p>
-              <p>Women Leaders To Look Up To in 2025 Award - Passion Vista Magazine, India</p>
-              <p>Esteemed member of the Brainz Magazine Expert Panel</p>
-              <p>Best Hypnotherapy Business in Harrogate, UK for 2025 - Quality Business Awards UK</p>
-              <p>Interview with Carla Marcos on the Brainz Magazine Podcast with Mark Sephton.</p>
-              <p>Interview on the "Live with the Famous Dr. Al" Show with Dr. Allen Lycka - Solution-Focused Hypnotherapy for Positive Change.</p>
-              <p>Interview on the npnHub Podcast - Uniting Neuroplasticians, with Dr. Justin James Kennedy - "The Brain Under Hypnosis" with Carla Marcos López.</p>
-            </div>
-            
+
             <p className="text-gray-900 text-base sm:text-lg font-bold pt-2 sm:pt-3 md:pt-4" style={{ fontFamily: "'Spartan', sans-serif" }}>
               Your conscious mind got you here. Your subconscious mind will set you free.
             </p>

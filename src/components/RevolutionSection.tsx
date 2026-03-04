@@ -36,7 +36,7 @@ export function RevolutionSection() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-2 md:mb-3 lg:mb-4 font-semibold leading-tight px-2" style={{ fontFamily: "'Spartan', sans-serif" }}>
             Leading a Revolution from the inside out
           </h2>
-          <p className="text-lg sm:text-xl md:text-2xl text-purple-200 font-semibold" style={{ fontFamily: "'Spartan', sans-serif" }}>
+          <p className="text-lg sm:text-xl md:text-2xl text-purple-200 font-semibold" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
             Mission & Vision
           </p>
         </div>
@@ -67,7 +67,10 @@ export function RevolutionSection() {
               </h3>
               
               {/* Description */}
-              <p className="text-sm sm:text-base text-purple-100 leading-relaxed flex-1 flex items-start justify-center text-center max-w-xs sm:max-w-sm mx-auto">
+              <p
+                className="text-sm sm:text-base text-purple-100 leading-relaxed flex-1 flex items-start justify-center text-center max-w-xs sm:max-w-sm mx-auto font-normal"
+                style={{ fontFamily: "'Outfit', sans-serif" }}
+              >
                 {card.description}
               </p>
             </button>

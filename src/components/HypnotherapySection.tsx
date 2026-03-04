@@ -30,7 +30,10 @@ export function HypnotherapySection() {
         {/* Two column text */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 md:gap-x-12 lg:gap-x-16 gap-y-6 sm:gap-y-8 max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12">
           {/* Left column */}
-          <div className="space-y-4 sm:space-y-5 text-white leading-relaxed font-semibold text-sm sm:text-base md:text-lg" >
+          <div
+            className="space-y-4 sm:space-y-5 text-white leading-relaxed font-normal text-sm sm:text-base md:text-lg"
+            style={{ fontFamily: "'Outfit', sans-serif" }}
+          >
             <p>
               Let's be clear: Hypnotherapy is not at the margins; it's at the heart. It's one of the most researched and respected tools in modern mind-body science
             </p>
@@ -41,7 +44,10 @@ export function HypnotherapySection() {
           </div>
           
           {/* Right column */}
-          <div className="space-y-4 sm:space-y-5 text-white leading-relaxed font-semibold text-sm sm:text-base md:text-lg" >
+          <div
+            className="space-y-4 sm:space-y-5 text-white leading-relaxed font-normal text-sm sm:text-base md:text-lg"
+            style={{ fontFamily: "'Outfit', sans-serif" }}
+          >
             <p>
               Trance is actually a very natural state. We all drift in and out of it many times a day, while driving, reading, running, or even daydreaming. In this relaxed state, the conscious mind softens, and our awareness shifts, creating space for new insights.
             </p>
@@ -54,7 +60,10 @@ export function HypnotherapySection() {
         
         {/* Concluding statement */}
         <div className="text-center max-w-4xl mx-auto px-4">
-          <p className="text-base sm:text-lg md:text-xl text-white leading-relaxed font-semibold" >
+          <p
+            className="text-base sm:text-lg md:text-xl text-white leading-relaxed font-normal"
+            style={{ fontFamily: "'Outfit', sans-serif" }}
+          >
             Leading hospitals, universities, and psychology journals have confirmed what my clients already know:
           </p>
         </div>

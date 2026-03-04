@@ -2,7 +2,7 @@ import { Button } from './ui/button';
 import { ArrowRight } from 'lucide-react';
 import brainBg from 'figma:asset/10c2ee1d5a6f1fff9cd785a2cc6f678b0f4bd695.png';
 
-export function WhyItWorksSection() {
+export default function WhyItWorksSection() {
   return (
     <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden bg-gradient-to-br from-indigo-950 via-blue-900 to-purple-900">
       {/* Brain background - keep full size on all screens including mobile */}
@@ -34,7 +34,10 @@ export function WhyItWorksSection() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16 text-white max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12">
           {/* Left column */}
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8' }}>
+          <div
+            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl"
+            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif" }}
+          >
             <p className="text-base sm:text-lg md:text-xl">
               I thought I knew everything about the mind.
             </p>
@@ -49,7 +52,10 @@ export function WhyItWorksSection() {
           </div>
           
           {/* Right column */}
-          <div className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl" style={{ lineHeight: '1.8' }}>
+          <div
+            className="space-y-4 sm:space-y-5 md:space-y-6 text-white/90 leading-relaxed font-normal text-base sm:text-lg md:text-xl"
+            style={{ lineHeight: '1.8', fontFamily: "'Outfit', sans-serif" }}
+          >
             <p className="text-base sm:text-lg md:text-xl">
               Building a business. And trying to juggle it all by myself while my husband traveled for work...
             </p>

@@ -16,58 +16,58 @@ export function ResultsSection() {
             {/* Content */}
             <div className="p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 max-w-2xl space-y-4 sm:space-y-5 md:space-y-6">
               <div>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl text-white mb-2 md:mb-3 font-bold">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl text-white mb-2 md:mb-3 font-bold" style={{ fontFamily: "'Spartan', sans-serif" }}>
                   The Siesta Bliss Mind Reset
                 </h2>
-                <p className="text-lg sm:text-xl text-white font-semibold">
+                <p className="text-lg sm:text-xl text-white font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                   Your oasis for the mind.
                 </p>
               </div>
               
-              <p className="text-sm sm:text-base text-white font-medium">
+              <p className="text-sm sm:text-base text-white font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 A simple, soothing way to pause, reset, and rediscover your inner flow.
               </p>
               
-              <p className="text-white text-base sm:text-lg font-bold">
+              <p className="text-white text-base sm:text-lg font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Feel better in 20 minutes. Start now it's free.
               </p>
               
               <div className="space-y-3">
-                <p className="text-white font-semibold text-sm sm:text-base">
+                <p className="text-white text-sm sm:text-base font-semibold" style={{ fontFamily: "'Outfit', sans-serif" }}>
                   This powerful starter pack includes:
                 </p>
                 
                 <div className="space-y-2">
                   <div className="flex items-start gap-2 sm:gap-3">
                     <Check className="w-4 h-4 sm:w-5 sm:h-5 text-purple-300 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm sm:text-base text-white font-medium">
+                    <span className="text-sm sm:text-base text-white font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                       Guided sleep hypnosis audio (calming anxiety)
                     </span>
                   </div>
                   
                   <div className="flex items-start gap-2 sm:gap-3">
                     <Check className="w-4 h-4 sm:w-5 sm:h-5 text-purple-300 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm sm:text-base text-white font-medium">
+                    <span className="text-sm sm:text-base text-white font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                       Guided sleep hypnosis audio (deep sleep)
                     </span>
                   </div>
                   
                   <div className="flex items-start gap-2 sm:gap-3">
                     <Check className="w-4 h-4 sm:w-5 sm:h-5 text-purple-300 flex-shrink-0 mt-0.5" />
-                    <span className="text-sm sm:text-base text-white font-medium">
+                    <span className="text-sm sm:text-base text-white font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                       The Subconscious Shift e-booklet (title to be confirmed)
                     </span>
                   </div>
                 </div>
               </div>
               
-              <p className="text-white text-xs sm:text-sm leading-relaxed font-medium">
+              <p className="text-white text-xs sm:text-sm leading-relaxed font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Created to help you slow racing thoughts, sleep deeply, and reset your 
                 emotional baseline, this toolkit is your first step towards subconscious 
                 alignment.
               </p>
               
-              <p className="text-white text-base sm:text-lg font-semibold">
+              <p className="text-white text-base sm:text-lg font-normal" style={{ fontFamily: "'Outfit', sans-serif" }}>
                 Start shifting from survival mode to calm clarity today.
               </p>
               

@@ -49,22 +49,48 @@ export function WhatHappensSection() {
             <span className="block sm:inline sm:ml-1"> on the Other Side</span>
           </h3>
           
-          <div className="space-y-5 sm:space-y-6 text-white w-full">
-            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-medium text-left">
-              <p className="text-sm sm:text-base md:text-lg"><strong className="font-bold">Sleep Like You Haven't For A Very Long Time.</strong> Deep, restorative sleep that<br />actually refreshes you. Some clients experience this improvement after just<br />one session.</p>
+          <div className="space-y-5 sm:space-y-6 text-white w-full" style={{ fontFamily: "'Outfit', sans-serif" }}>
+            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
+              <p className="text-sm sm:text-base md:text-lg">
+                Sleep Like You Haven't For A Very Long Time. Deep, restorative sleep that
+                <br />
+                actually refreshes you. Some clients experience this improvement after just
+                <br />
+                one session.
+              </p>
             </div>
             
-            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-medium text-left">
-              <p className="text-sm sm:text-base md:text-lg"><strong className="font-bold">Make Decisions with Unshakeable Clarity.</strong> No more second-guessing. No<br />more analysis paralysis. You'll trust your instincts because your instincts will<br />finally be trustworthy.</p>
+            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
+              <p className="text-sm sm:text-base md:text-lg">
+                Make Decisions with Unshakeable Clarity. No more second-guessing. No
+                <br />
+                more analysis paralysis. You'll trust your instincts because your instincts will
+                <br />
+                finally be trustworthy.
+              </p>
             </div>
             
-            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-medium text-left">
-              <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4"><strong className="font-bold">End the "I Know But I Don't Do" Cycle.</strong> Your actions will finally align with<br />your values. The gap between who you are and who you want to be closes.</p>
-              <p className="text-sm sm:text-base md:text-lg"><strong className="font-bold">Reclaim Your Creative Fire.</strong> That spark you buried under responsibilities and<br />shoulds, It's still there, and it's ready to burn bright again.</p>
+            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
+              <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
+                End the "I Know But I Don't Do" Cycle. Your actions will finally align with
+                <br />
+                your values. The gap between who you are and who you want to be closes.
+              </p>
+              <p className="text-sm sm:text-base md:text-lg">
+                Reclaim Your Creative Fire. That spark you buried under responsibilities and
+                <br />
+                shoulds, It's still there, and it's ready to burn bright again.
+              </p>
             </div>
             
-            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-medium text-left">
-              <p className="text-sm sm:text-base md:text-lg"><strong className="font-bold">Become the Leader You Were Born to Be.</strong> Not just in your career, but in<br />your own life. When you master your inner world, your outer world transforms<br />automatically.</p>
+            <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
+              <p className="text-sm sm:text-base md:text-lg">
+                Become the Leader You Were Born to Be. Not just in your career, but in
+                <br />
+                your own life. When you master your inner world, your outer world transforms
+                <br />
+                automatically.
+              </p>
             </div>
             
             <div className="leading-relaxed text-sm sm:text-base md:text-lg italic font-medium pt-3 sm:pt-4 text-left">

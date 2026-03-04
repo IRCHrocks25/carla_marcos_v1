@@ -10,7 +10,7 @@ export function WhyMyWorkWorksSection() {
     "Carla Marcos Lopez's Journey of Passion and Purpose - Brainz Magazine (Cover Feature 2024)",
     "Empower Your Mind For Positive Change - Exclusive interview with Carla Marcos López - Brainz Magazine",
     "Top 50 Fearless Leaders Award - IAOTP, USA (2024)",
-    "Top Clinical Hypnotherapist of the Year - IAOTP, USA (2024)"
+    "Top Clinical Hypnotherapist of the Year - IAOTP, USA (2024)",
   ];
 
   const rightColumnAwards = [
@@ -20,7 +20,7 @@ export function WhyMyWorkWorksSection() {
     "Best Hypnotherapy Business in Harrogate, UK for 2025 - Quality Business Awards UK",
     "Interview with Carla Marcos on the Brainz Magazine Podcast with Mark Sephton.",
     "Interview on the \"Live with the Famous Dr. Al\" Show with Dr. Allen Lycka - Solution-Focused Hypnotherapy for Positive Change.",
-    "Interview on the npnHub Podcast - Uniting Neuroplasticians, with Dr. Justin James Kennedy - \"The Brain Under Hypnosis\" with Carla Marcos López."
+    "Interview on the npnHub Podcast - Uniting Neuroplasticians, with Dr. Justin James Kennedy - \"The Brain Under Hypnosis\" with Carla Marcos López.",
   ];
 
   return (
@@ -55,17 +55,23 @@ export function WhyMyWorkWorksSection() {
             To date, I've helped 600+ men and women in 15+ countries stop fighting themselves and start flowing.
           </p>
         </div>
-
+        
         {/* Two Column Awards Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 mb-10 sm:mb-12 md:mb-16 max-w-6xl mx-auto">
           {/* Left Column */}
           <div className="space-y-3 sm:space-y-4">
             {leftColumnAwards.map((award, idx) => (
               <div key={idx} className="flex items-start gap-3 sm:gap-4">
-                <div className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7" style={{ backgroundColor: '#012194' }}>
+                <div
+                  className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7"
+                  style={{ backgroundColor: '#012194' }}
+                >
                   <Check className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}>
+                <p
+                  className="text-sm sm:text-base leading-relaxed"
+                  style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}
+                >
                   {award}
                 </p>
               </div>
@@ -76,10 +82,16 @@ export function WhyMyWorkWorksSection() {
           <div className="space-y-3 sm:space-y-4">
             {rightColumnAwards.map((award, idx) => (
               <div key={idx} className="flex items-start gap-3 sm:gap-4">
-                <div className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7" style={{ backgroundColor: '#012194' }}>
+                <div
+                  className="flex-shrink-0 mt-0.5 rounded-full flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7"
+                  style={{ backgroundColor: '#012194' }}
+                >
                   <Check className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </div>
-                <p className="text-sm sm:text-base leading-relaxed" style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}>
+                <p
+                  className="text-sm sm:text-base leading-relaxed"
+                  style={{ color: '#012194', fontFamily: "'Outfit', sans-serif" }}
+                >
                   {award}
                 </p>
               </div>

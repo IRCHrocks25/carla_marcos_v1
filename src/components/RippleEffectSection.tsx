@@ -40,19 +40,19 @@ export function RippleEffectSection() {
               My Unique Edge
             </h2>
 
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-medium drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-normal drop-shadow-md">
               I bring a distinctive fusion of health, law and corporate expertise to subconscious transformation, helping my clients achieve their goals in both business and life by bridging high-performance with mental health and emotional well-being.
             </p>
 
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-medium drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-normal drop-shadow-md">
               My approach is solution-focused, science-backed, and holistic, helping people rapidly overcome challenges like anxiety, depression, insomnia, phobias, OCD, chronic pain, and more.
             </p>
 
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-medium drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-normal drop-shadow-md">
               I also specialize in peak performance, guiding entrepreneurs, professionals, and creatives to find clarity, make better decisions, and unleash their confidence and creativity, whether in the boardroom, on stage, or on the field.
             </p>
 
-            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-medium drop-shadow-md">
+            <p className="text-sm sm:text-base md:text-lg text-white leading-relaxed font-normal drop-shadow-md">
               My integrative approach, which always considers the mind-body connection, also helps my clients reconnect with themselves, discover their purpose, and support their rejuvenation goals, promoting better longevity through a happier, healthier life.
             </p>
 

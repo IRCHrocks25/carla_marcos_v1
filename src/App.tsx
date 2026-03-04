@@ -2,7 +2,7 @@ import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { ExhaustionSection } from './components/ExhaustionSection';
 import { BreakthroughSection } from './components/BreakthroughSection';
-import { WhyItWorksSection } from './components/WhyItWorksSection';
+import WhyItWorksSection from './components/WhyItWorksSection';
 import { WhyMyWorkWorksSection } from './components/WhyMyWorkWorksSection';
 import { HypnotherapySection } from './components/HypnotherapySection';
 import { TestimonialsSection } from './components/TestimonialsSection';
