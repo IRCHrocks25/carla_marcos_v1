@@ -9,14 +9,50 @@ import logo6 from '../assets/icons/Logo Container (5).png';
 
 export function ExhaustionSection() {
   return (
-    <section className="py-12 sm:py-14 md:py-16 bg-gradient-to-b from-white to-purple-50/30">
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+    <section className="py-12 sm:py-14 md:py-16 bg-gradient-to-b from-white to-purple-50/30 overflow-visible">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 overflow-visible">
         {/* As Seen On Section */}
         <div className="text-center mb-12 sm:mb-14 md:mb-16">
           <div className="text-gray-700 text-xs mb-6 sm:mb-8 font-semibold">
             AS SEEN ON
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-12 opacity-90 grayscale">
+          {/* Mobile: Marquee */}
+          <div className="sm:hidden overflow-hidden -mx-4">
+            <div className="flex animate-as-seen-marquee">
+              {[...Array(2)].map((_, setIdx) => (
+                <div key={setIdx} className="flex gap-8 flex-shrink-0 px-4 items-center opacity-90 grayscale">
+                  <img src={logo1} alt="Network Logo" className="h-10 w-auto object-contain" />
+                  <img src={logo2} alt="Network Logo" className="h-10 w-auto object-contain" />
+                  <img src={logo3} alt="Network Logo" className="h-10 w-auto object-contain" />
+                  <img src={logo4} alt="Network Logo" className="h-10 w-auto object-contain" />
+                  <img src={logo5} alt="Network Logo" className="h-10 w-auto object-contain" />
+                  <img src={logo6} alt="Network Logo" className="h-10 w-auto object-contain" />
+                </div>
+              ))}
+            </div>
+          </div>
+          <style>{`
+            @keyframes as-seen-marquee {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+            .animate-as-seen-marquee {
+              animation: as-seen-marquee 15s linear infinite;
+              will-change: transform;
+            }
+            @media (max-width: 767px) {
+              .cosmic-brain-left {
+                transform: translateX(-24px) !important;
+              }
+            }
+            @media (min-width: 768px) {
+              .cosmic-brain-left {
+                transform: none !important;
+              }
+            }
+          `}</style>
+          {/* Desktop: Grid */}
+          <div className="hidden sm:grid grid-cols-3 gap-6 sm:gap-8 md:gap-10 items-center justify-items-center max-w-3xl mx-auto opacity-90 grayscale">
             <img src={logo1} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
             <img src={logo2} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
             <img src={logo3} alt="Network Logo" style={{ height: '40px', maxHeight: '40px', width: 'auto' }} className="object-contain" />
@@ -28,7 +64,7 @@ export function ExhaustionSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 md:gap-16 lg:gap-20 items-center mt-12 sm:mt-16 md:mt-20">
           {/* Left - Cosmic Brain Image */}
-          <div className="relative flex justify-center order-2 md:order-1">
+          <div className="relative flex justify-center order-2 md:order-1 cosmic-brain-left">
             <ImageWithFallback
               src={cosmicBrainImage}
               alt="Cosmic brain representing subconscious alignment"

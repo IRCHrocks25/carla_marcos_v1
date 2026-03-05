@@ -20,6 +20,9 @@ export function HeroSection() {
           .hero-section-mobile {
             background-position: 45% center;
           }
+          .hero-buttons-mobile {
+            transform: translateX(-8px);
+          }
         }
       `}</style>
       <div className="max-w-[1440px] mx-auto pl-4 pr-6 sm:px-6 md:px-8 lg:px-12 relative z-10">
@@ -52,10 +55,10 @@ export function HeroSection() {
             </p>
             
             <div className="pt-4 sm:pt-3 md:pt-4">
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-end sm:items-start w-full sm:w-auto hero-buttons-mobile">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal"
+                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto max-w-[280px] sm:max-w-none whitespace-normal"
                 >
                   <span className="block sm:inline">Start Your</span>
                   <span className="block sm:inline sm:ml-1">Transformation</span>
@@ -63,7 +66,7 @@ export function HeroSection() {
                 </Button>
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto whitespace-normal"
+                  className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-700 hover:to-purple-600 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg font-bold w-full sm:w-auto max-w-[280px] sm:max-w-none whitespace-normal"
                 >
                   Begin the Shift
                   <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
