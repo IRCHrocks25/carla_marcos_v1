@@ -208,7 +208,7 @@ Start your transformation today and experience the calm, clarity, and confidence
 
             
 
-            <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base mb-8 sm:mb-0 -mt-4 sm:mt-0">
 
               Until now. And that's where I come in.
 
@@ -217,13 +217,13 @@ Start your transformation today and experience the calm, clarity, and confidence
             
 
             {/* Quote Box with Vector img at the back */}
-            <div className="relative rounded-2xl md:rounded-3xl p-8 sm:p-10 md:p-12 min-h-[220px] flex items-center justify-center">
-              {/* Vector image - independent element at the back, larger */}
+            <div className="relative rounded-2xl md:rounded-3xl p-8 sm:p-10 md:p-12 min-h-[220px] flex items-center justify-center mt-6 sm:mt-0">
+              {/* Vector image - independent element at the back, larger - reduced on mobile to prevent overlap with intro text */}
               <img 
                 src={vectorBg}
                 alt=""
-                className="absolute left-0 bottom-0 z-0 w-[280px] sm:w-[350px] md:w-[400px] h-auto opacity-50 object-contain object-left-bottom pointer-events-none"
-                style={{ transform: 'translateY(2rem)' }}
+                className="absolute left-0 bottom-0 z-0 w-[200px] sm:w-[350px] md:w-[400px] h-auto opacity-50 object-contain object-left-bottom pointer-events-none"
+                style={{ transform: 'translateY(1rem)' }}
               />
               {/* Translucent quote box on top */}
               <div className="relative z-10 mt-10 sm:mt-12 md:mt-16 rounded-2xl md:rounded-3xl p-4 sm:p-5 md:p-6 shadow-md text-left max-w-xl" style={{ backgroundColor: 'rgba(255, 255, 255, 0.65)' }}>

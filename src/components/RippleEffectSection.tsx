@@ -10,7 +10,7 @@ export function RippleEffectSection() {
           src={rippleBg} 
           alt="" 
           className="w-full h-full object-cover"
-          style={{ minHeight: '100%' }}
+          style={{ minHeight: '100%', objectPosition: '30% center' }}
         />
       </div>
       

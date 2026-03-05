@@ -238,17 +238,17 @@ export function FinalCTASection() {
                   }
                 }
                 .animate-marquee {
-                  animation: marquee 24s linear infinite;
+                  animation: marquee 10s linear infinite;
                   will-change: transform;
                 }
                 @media (min-width: 640px) {
                   .animate-marquee {
-                    animation-duration: 24s;
+                    animation-duration: 10s;
                   }
                 }
                 @media (min-width: 768px) {
                   .animate-marquee {
-                    animation-duration: 24s;
+                    animation-duration: 10s;
                   }
                 }
                 .animate-marquee:hover {

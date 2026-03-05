@@ -35,8 +35,8 @@ export function WhatHappensSection() {
         </svg>
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 -ml-2 pr-4 sm:-ml-1 sm:pr-6 md:pl-0 md:pr-8 lg:pl-2 lg:pr-12 py-12 sm:py-16 md:py-20 lg:py-24 max-w-6xl mx-auto">
+      {/* Content - px-4 on mobile only, original layout from sm+ */}
+      <div className="relative z-10 px-4 sm:px-0 sm:pl-0 sm:-ml-1 sm:pr-6 md:pl-0 md:pr-8 lg:pl-2 lg:pr-12 py-12 sm:py-16 md:py-20 lg:py-24 max-w-6xl mx-auto">
         <div className="space-y-5 sm:space-y-6 md:space-y-7 w-full">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white mb-4 sm:mb-5 md:mb-6 font-semibold leading-tight" style={{ fontFamily: "'Spartan', sans-serif" }}>
             <span className="block">What Happens When You Find</span>
@@ -53,9 +53,9 @@ export function WhatHappensSection() {
             <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
               <p className="text-sm sm:text-base md:text-lg">
                 Sleep Like You Haven't For A Very Long Time. Deep, restorative sleep that
-                <br />
+                <br className="hidden sm:inline" />
                 actually refreshes you. Some clients experience this improvement after just
-                <br />
+                <br className="hidden sm:inline" />
                 one session.
               </p>
             </div>
@@ -63,9 +63,9 @@ export function WhatHappensSection() {
             <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
               <p className="text-sm sm:text-base md:text-lg">
                 Make Decisions with Unshakeable Clarity. No more second-guessing. No
-                <br />
+                <br className="hidden sm:inline" />
                 more analysis paralysis. You'll trust your instincts because your instincts will
-                <br />
+                <br className="hidden sm:inline" />
                 finally be trustworthy.
               </p>
             </div>
@@ -73,12 +73,12 @@ export function WhatHappensSection() {
             <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
               <p className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4">
                 End the "I Know But I Don't Do" Cycle. Your actions will finally align with
-                <br />
+                <br className="hidden sm:inline" />
                 your values. The gap between who you are and who you want to be closes.
               </p>
               <p className="text-sm sm:text-base md:text-lg">
                 Reclaim Your Creative Fire. That spark you buried under responsibilities and
-                <br />
+                <br className="hidden sm:inline" />
                 shoulds, It's still there, and it's ready to burn bright again.
               </p>
             </div>
@@ -86,15 +86,15 @@ export function WhatHappensSection() {
             <div className="leading-relaxed text-sm sm:text-base md:text-lg font-normal text-left">
               <p className="text-sm sm:text-base md:text-lg">
                 Become the Leader You Were Born to Be. Not just in your career, but in
-                <br />
+                <br className="hidden sm:inline" />
                 your own life. When you master your inner world, your outer world transforms
-                <br />
+                <br className="hidden sm:inline" />
                 automatically.
               </p>
             </div>
             
             <div className="leading-relaxed text-sm sm:text-base md:text-lg italic font-medium pt-3 sm:pt-4 text-left">
-              <p className="text-sm sm:text-base md:text-lg">"When you master your mind and find your unique balance, you don't just<br />transform your own life, you become an inspiration for your family, friends,<br />teams, and the wider community."</p>
+              <p className="text-sm sm:text-base md:text-lg">"When you master your mind and find your unique balance, you don't just<br className="hidden sm:inline" />transform your own life, you become an inspiration for your family, friends,<br className="hidden sm:inline" />teams, and the wider community."</p>
             </div>
           </div>
           
